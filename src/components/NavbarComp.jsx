@@ -9,7 +9,7 @@ const NavbarComp = () => {
           <li className='p-3 cursor-pointer active:text-white'><a href='/'>Home</a></li>
           <li className='p-3 cursor-pointer active:text-white'><a href='/'>Discover</a></li>
           <li className='p-3 cursor-pointer active:text-white'><a href='/'>Insight</a></li>
-          <li className='p-3 cursor-pointer active:text-white'><a href='/'>Internfair</a></li>
+          <li className='p-3 cursor-pointer active:text-white'><a href='/internfair'>Internfair</a></li>
           <li className='p-3 cursor-pointer active:text-white'><a href='./login'><button className='bg-[#4A4B50] rounded-2xl text-white  px-5 hover:scale-105 duration-400'>Login</button></a></li>
         </ul>
       </div>
