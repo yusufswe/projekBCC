@@ -18,6 +18,12 @@ module.exports = {
       'Black' : '#000000',
       'RichBlack' : '#081015',
     },
+    screens: {
+      'sm' : '640px',
+      'md' : '768px',
+      'lg' : '1024px',
+      'xl' : '1280px',
+    },
     extend: {},
   },
   plugins: [],

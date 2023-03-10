@@ -1,24 +1,27 @@
 import React from "react";
 
-const Navbar = () => {
+const NavbarRecruiter = () => {
   return (
     <div>
-      <div className="flex justify-between items-center p-0 right-0 left-0 h-[80px] bg-SteelBlue px-4 font-semibold fixed z-50">
+      <div className="flex justify-between items-center p-0 right-0 left-0 h-[80px] bg-YankeesBlue px-4 font-semibold fixed z-50">
         <h2 className="w-full text-3xl font-bold cursor-pointer ml-5">
-          <a href="/" className="text-White">FindIn</a>
+          <a href="/homerecruiter" className="text-White">FindIn</a>
         </h2>
         <ul className="md:flex mt-3">
           <li className="p-3 cursor-pointer">
-            <a href="/" className="text-White">Home</a>
+            <a href="/homerecruiter" className="text-White">Home</a>
           </li>
           <li className="p-3 cursor-pointer">
-            <a href="/" className="text-White">Discover</a>
+            <a href="/homerecruiter" className="text-White">Talent</a>
           </li>
           <li className="p-3 cursor-pointer">
-            <a href="/insight" className="text-White">Insight</a>
+            <a href="/insightrecruiter" className="text-White">Insight</a>
           </li>
           <li className="p-3 cursor-pointer">
-            <a href="/internfair" className="text-White">Internfair</a>
+            <a href="/homerecruiter" className="text-White">Post</a>
+          </li>
+          <li className="p-3 cursor-pointer">
+            <a href="/internfairrecruiter" className="text-White">Internfair</a>
           </li>
           <li className="p-3 cursor-pointer">
             <a href="/login">
@@ -33,4 +36,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarRecruiter;

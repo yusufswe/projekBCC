@@ -1,11 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import AppLayoutStudent from "../../components/partials/layout/layout/AppLayoutStudent";
 
 const Login = () => {
   return (
     <div>
-      <AppLayoutStudent>
         <section className="bg-gray-50 min-h-screen flex items-center justify-center">
           <div className="bg-gray-300 flex rounded-2xl shadow-lg max-w-3xl p-5 items-center absolute mt-[70px]">
             <div className="md:w-1/2 px-8">
@@ -52,7 +50,6 @@ const Login = () => {
             </div>
           </div>
         </section>
-      </AppLayoutStudent>
     </div>
   );
 };

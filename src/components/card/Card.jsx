@@ -1,16 +1,21 @@
-import React from 'react'
-import insight1 from "../../assets/newuser/insight1.png"
+import React from "react";
+import fotoContainer from "../../assets/newuser/insight3.png";
+import jam from "../../assets/jam.png";
+import lokasi from "../../assets/lokasi.png";
 
 const Card = () => {
   return (
     <div>
-      <div className='absolute w-[362px] h-[462px] ml-[40px] rounded-md bg-DarkSkyBlue'>
-        <img src={insight1} className="mt-[30px] ml-[40px]"/>
-        <h1 className='font-bold text-xl mt-[15px] ml-[43px]'>Umur 20 udah kerja sana sini</h1>
-        <p className='mt-[10px] ml-[33px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rerum doloremque optio, soluta quod in laboriosam inventore rem animi labore itaque voluptates ipsam facilis quae eligendi nobis. Nemo, molestiae incidunt?</p>
+      <div className="absolute w-[250px] h-[317px] rounded-2xl  bg-TealBlue">
+        <img src={fotoContainer} alt="" className="w-[250px] h-[150px] "/>
+        <p className="absolute text-White text-xl font-semibold ml-[28px] mt-[17px]">Gojek Internfair</p>
+        <img src={jam} alt="" className="absolute mt-[60px] ml-[30px]"/>
+        <p className="absolute text-White font-bold mt-[57px] ml-[60px]">13:00 - selesai</p>
+        <img src={lokasi} alt="" className="absolute mt-[110px] ml-[30px]"/>
+        <p className="absolute text-White text-xl font-semibold ml-[66px] mt-[104px]">Zoom</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
