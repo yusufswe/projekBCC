@@ -1,55 +1,59 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import bg1 from "../../assets/bgLogin1.png";
+import bg2 from "../../assets/bgLogin2.png";
 
 const Login = () => {
   return (
     <div>
-        <section className="bg-gray-50 min-h-screen flex items-center justify-center">
-          <div className="bg-gray-300 flex rounded-2xl shadow-lg max-w-3xl p-5 items-center absolute mt-[70px]">
-            <div className="md:w-1/2 px-8">
-              <h2 className="font-bold text-2xl text-[#4A4B50]">Login</h2>
-              <p className="text-sm mt-4 text-[#4A4B50]">
-                If you already a member, easily log in
-              </p>
-              <form action="" className="flex flex-col gap">
-                <input
-                  className="p-2 rounded-xl border mt-8"
-                  type="email"
-                  placeholder="Email"
-                />
-                <div className="relative">
-                  <input
-                    className="w-full p-2 rounded-xl border mt-2"
-                    type="password"
-                    placeholder="Password"
-                  />
-                </div>
-                <button className="bg-[#4A4B50] rounded-xl text-white py-2 hover:scale-105 duration-300 mt-2">
-                  Login
-                </button>
-              </form>
-              <div className="mt-3 text-sm flex justify-between items-center">
-                <nav>
-                  <p>
-                    Don't have an account?
-                    <NavLink to="/register">
-                      <span className="ml-1 font-semibold cursor-pointer">
-                        Register
-                      </span>
-                    </NavLink>
-                  </p>
-                </nav>
-              </div>
-            </div>
-            <div className="w-1/2">
-              <img
-                className=" rounded-2xl"
-                src="https://images.unsplash.com/photo-1677529457642-e075f9ceb51d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60"
-                alt="gambar"
-              />
-            </div>
-          </div>
-        </section>
+      <div className="flex justify-center">
+        <h1 className="absolute text-7xl font-bold text-White mt-[70px] mr-[90px]">
+          FindIn
+        </h1>
+        <div className="absolute w-[463px] h-[703px] border-4 border-White rounded-3xl p-4 bg-transparent  flex justify-center mt-[200px] mr-[75px]">
+          <h1 className="absolute text-White text-3xl font-semibold mt-[10px] mr-[15px]">
+            Login
+          </h1>
+          <p className="absolute text-White text-xl font-semibold mr-[240px] mt-[100px]">
+            Username/email
+          </p>
+          <input
+            className="w-full h-[50px] border-2 border-White rounded-3xl bg-transparent mt-[140px] px-[10px]"
+            type="text"
+            style={{ backgroundColor: "transparent", color: "White" }}
+          />
+          <p className="absolute text-White text-xl font-semibold mr-[300px] mt-[220px]">
+            Login as
+          </p>
+          <select
+            className="absolute w-[430px] h-[50px] border-2 border-White rounded-3xl bg-transparent bg-opacity-30 mt-[260px] px-[10px]"
+            style={{ backgroundColor: "transparent", color: "White" }}
+          >
+            <option value="student" style={{ color: "Black" }}>
+              Student
+            </option>
+            <option value="recruiter" style={{ color: "Black" }}>
+              Recruiter
+            </option>
+          </select>
+          <p className="absolute text-White text-xl font-semibold mr-[300px] mt-[340px]">
+            Password
+          </p>
+          <input
+            className="w-[430px] h-[50px] absolute border-2 border-White rounded-3xl bg-transparent bg-opacity-30 mt-[380px] px-[10px]"
+            type="password"
+            style={{ backgroundColor: "transparent", color: "White" }}
+          />
+          <p className="absolute text-White text-base mt-[450px] mr-[230px]">
+            Forgot Password? <span className="text-White font-bold">Click Here</span>
+          </p>
+          <button className="absolute w-[330px] py-1 font-bold bg-Zomp rounded-3xl text-White mt-[530px] hover:scale-105 duration-400">Login</button>
+          <p className="absolute text-White text-base mt-[590px] mr-[10px]">
+            Don't have an account? <span className="text-White font-bold">Register</span>
+          </p>
+        </div>
+        <img src={bg1} alt="" />
+        <img src={bg2} alt="" className="w-full" />
+      </div>
     </div>
   );
 };

@@ -21,6 +21,9 @@ const Navbar = () => {
             <a href="/internfair" className="text-White">Internfair</a>
           </li>
           <li className="p-3 cursor-pointer">
+            <a href="/homerecruiter" className="text-White">Recruiters</a>
+          </li>
+          <li className="p-3 cursor-pointer">
             <a href="/login">
               <button className="bg-BeauBlue rounded-2xl text-Black  px-5 hover:scale-105 duration-400">
                 Login

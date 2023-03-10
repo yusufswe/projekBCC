@@ -1,9 +1,14 @@
 import React from "react";
 import AppLayoutStudent from "../../components/partials/layout/layout/AppLayoutStudent";
-import Trending from "../../assets/trending.png";
-import TrendingDua from "../../assets/trendingdua.png";
-import Viral from "../../assets/viral.png";
-import ViralDua from "../../assets/viraldua.png";
+import img1 from "../../assets/student/trendingstudent.png";
+import img2 from "../../assets/student/trendingstudent1.png";
+import img3 from "../../assets/student/trendingstudent2.png";
+import img4 from "../../assets/student/trendingstudent3.png";
+import img5 from "../../assets/student/viralstudent.png";
+import img6 from "../../assets/student/viralstudent1.png";
+import img7 from "../../assets/student/viralstudent2.png";
+import img8 from "../../assets/student/viralstudent3.png";
+
 
 const Insight = () => {
   return (
@@ -37,42 +42,42 @@ const Insight = () => {
           <div className="flex justify-center items-center">
             <div className="absolute bg-TealBlue w-[1276px] h-[284px]  mt-[2100px] rounded-3xl">
               <p className="absolute text-White text-xl font-semibold ml-[500px] mt-[20px]">
-                Apa itu Recruiter
+                The Benefits of Interning
               </p>
               <p className="absolute text-White text-xl ml-[500px] mt-[90px]">
-                Seorang rekruter membantu perusahaan mengisi lowongan dengan
-                mengecek dan memilih resume kandidat atau membujuk individu yang
-                qualified untuk mengisi posisi tersebut
+                Why Internships are Crucial for Your Career" by Forbes -
+                highlights the benefits of internships such as gaining
+                experience, developing skills, and building connections.
               </p>
               <p className="absolute text-White text-xl ml-[500px] mt-[230px] font-bold">
                 Post October, 2021
               </p>
-              <img src={Trending} alt="" />
+              <img src={img1} alt="" />
             </div>
           </div>
           <div className="flex">
             <div className="absolute w-[330px] h-[330px] bg-TealBlue rounded-2xl mt-[1300px] ml-[130px]">
-              <img src={TrendingDua} alt="" />
+              <img src={img2} alt="" />
               <p className="absolute text-White font-semibold text-xl mt-[20px] ml-[30px]">
-                Tanggung jawab recruiter
+                The Top 10 Internship Programs
               </p>
               <p className="absolute text-White font-bold text-xl mt-[80px] ml-[30px]">
                 Post October, 2021
               </p>
             </div>
             <div className="absolute w-[330px] h-[330px] bg-TealBlue rounded-2xl mt-[1300px] ml-[630px]">
-              <img src={TrendingDua} alt="" />
+              <img src={img3} alt="" />
               <p className="absolute text-White font-semibold text-xl mt-[20px] ml-[30px]">
-                Tanggung jawab recruiter
+                The Do's and Don'ts of Interning
               </p>
               <p className="absolute text-White font-bold text-xl mt-[80px] ml-[30px]">
                 Post October, 2021
               </p>
             </div>
             <div className="absolute w-[330px] h-[330px] bg-TealBlue rounded-2xl mt-[1300px] ml-[1080px]">
-              <img src={TrendingDua} alt="" />
+              <img src={img4} alt="" />
               <p className="absolute text-White font-semibold text-xl mt-[20px] ml-[30px]">
-                Tanggung jawab recruiter
+                Keuntungan Virtual Internships
               </p>
               <p className="absolute text-White font-bold text-xl mt-[80px] ml-[30px]">
                 Post October, 2021
@@ -95,11 +100,11 @@ const Insight = () => {
               <p className="absolute text-White text-xl ml-[500px] mt-[230px] font-bold">
                 Post October, 2021
               </p>
-              <img src={Viral} alt="" />
+              <img src={img5} alt="" />
             </div>
           </div>
           <div className="absolute w-[330px] h-[330px] bg-TealBlue rounded-2xl mt-[2300px] ml-[130px]">
-            <img src={ViralDua} alt="" />
+            <img src={img6} alt="" />
             <p className="absolute text-White font-semibold text-xl mt-[20px] ml-[30px]">
               Magang, Mengapa Penting?
             </p>
@@ -108,18 +113,18 @@ const Insight = () => {
             </p>
           </div>
           <div className="absolute w-[330px] h-[330px] bg-TealBlue rounded-2xl mt-[2300px] ml-[630px]">
-            <img src={ViralDua} alt="" />
+            <img src={img7} alt="" />
             <p className="absolute text-White font-semibold text-xl mt-[20px] ml-[30px]">
-              Magang, Mengapa Penting?
+              Unpaid Internship, Perbudakan?
             </p>
             <p className="absolute text-White font-bold text-xl mt-[80px] ml-[30px]">
               Post October, 2021
             </p>
           </div>
           <div className="absolute w-[330px] h-[330px] bg-TealBlue rounded-2xl mt-[2300px] ml-[1080px]">
-            <img src={ViralDua} alt="" />
+            <img src={img8} alt="" />
             <p className="absolute text-White font-semibold text-xl mt-[20px] ml-[30px]">
-              Magang, Mengapa Penting?
+              Internship Experience
             </p>
             <p className="absolute text-White font-bold text-xl mt-[80px] ml-[30px]">
               Post October, 2021

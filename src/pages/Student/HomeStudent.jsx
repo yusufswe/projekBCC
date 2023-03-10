@@ -176,10 +176,10 @@ const HomeStudent = () => {
               alt=""
               className="absolute mt-[30px] ml-[40px]"
             />
-            <h1 className="absolute text-Black text-2xl font-bold mt-[250px] ml-[39px]">
+            <h1 className="absolute text-Black text-2xl font-bold mt-[260px] ml-[39px]">
               The Benefits of Interning
             </h1>
-            <p className="absolute text-Black text-xl font-semibold ml-[39px] mt-[310px]">
+            <p className="absolute text-Black text-xl font-semibold ml-[39px] mt-[330px]">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
               laudantium distinctio culpa id ea exercitationem eaque. Omnis
               officia minima placeat{" "}
@@ -192,9 +192,9 @@ const HomeStudent = () => {
               className="absolute mt-[30px] ml-[40px]"
             />
             <h1 className="absolute text-Black text-2xl font-bold mt-[250px] ml-[39px]">
-              The Benefits of Interning
+              The Do's and Don'ts of Interning
             </h1>
-            <p className="absolute text-Black text-xl font-semibold ml-[39px] mt-[310px]">
+            <p className="absolute text-Black text-xl font-semibold ml-[39px] mt-[330px]">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
               laudantium distinctio culpa id ea exercitationem eaque. Omnis
               officia minima placeat{" "}
@@ -207,9 +207,9 @@ const HomeStudent = () => {
               className="absolute mt-[30px] ml-[40px]"
             />
             <h1 className="absolute text-Black text-2xl font-bold mt-[250px] ml-[39px]">
-              The Benefits of Interning
+              Gabut dirumah? Lakuin 10 hal ini
             </h1>
-            <p className="absolute text-Black text-xl font-semibold ml-[39px] mt-[310px]">
+            <p className="absolute text-Black text-xl font-semibold ml-[39px] mt-[330px]">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
               laudantium distinctio culpa id ea exercitationem eaque. Omnis
               officia minima placeat{" "}
