@@ -159,9 +159,11 @@ const HomeStudent = () => {
           </p>
           <p className="absolute z-40 mt-[893px] ml-[1220px]">2022 / 2023</p>
 
-          <button className="absolute font-bold text-2xl bg-Zomp rounded-2xl text-Black py-2 px-3 hover:scale-105 duration-300 mt-[1110px] mx-auto ml-[680px] ">
-            Follow their journey
+          <div className="flex justify-center">
+          <button className="absolute font-bold text-2xl bg-Zomp rounded-2xl text-Black py-2 px-3 hover:scale-105 duration-300 mt-[1110px] ">
+            Join us Now
           </button>
+          </div>
         </div>
         <div className="w-full h-[1131px] bg-PoliceBlue">
           <h1 className="absolute text-White text-5xl font-bold mt-[100px] ml-[188px]">
@@ -215,12 +217,11 @@ const HomeStudent = () => {
               officia minima placeat{" "}
             </p>
           </div>
-
-          {/* <div className="absolute w-[362px] h-[462px] bg-DarkSkyBlue rounded-xl mt-[400px] ml-[600px]"></div> */}
-          {/* <div className="absolute w-[362px] h-[462px] bg-DarkSkyBlue rounded-xl mt-[400px] ml-[1100px]"></div> */}
-          <button className="absolute bg-DarkSkyBlue rounded-2xl font-bold text-2xl px-5 hover:scale-105 duration-400 mt-[990px] ml-[710px]">
+          <div className="flex justify-center">
+          <button className="absolute bg-DarkSkyBlue rounded-2xl font-bold text-2xl px-5 hover:scale-105 duration-400 mt-[990px]">
             See more
           </button>
+          </div>
         </div>
         <div className="w-full h-[918px]">
           <h1 className="absolute text-White text-6xl font-bold mt-[280px] ml-[100px]">
@@ -232,7 +233,7 @@ const HomeStudent = () => {
           <h1 className="absolute text-White text-6xl font-bold mt-[420px] ml-[100px]">
             pada internfair
           </h1>
-          <button className="absolute font-bold text-2xl bg-Zomp rounded-2xl border-solid border-White text-White py-2 px-3 hover:scale-105 duration-300 mt-[530px] ml-[100px]">
+          <button className="absolute font-bold text-2xl bg-transparent rounded-2xl border-2 border-White text-White py-2 px-3 hover:scale-105 duration-300 mt-[530px] ml-[100px]">
             See more
           </button>
           <img src={internfair} className="w-full h-[918px]" />

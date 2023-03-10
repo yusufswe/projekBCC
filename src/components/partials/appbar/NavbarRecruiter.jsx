@@ -18,7 +18,7 @@ const NavbarRecruiter = () => {
             <a href="/insightrecruiter" className="text-White">Insight</a>
           </li>
           <li className="p-3 cursor-pointer">
-            <a href="/homerecruiter" className="text-White">Post</a>
+            <a href="/post" className="text-White">Post</a>
           </li>
           <li className="p-3 cursor-pointer">
             <a href="/internfairrecruiter" className="text-White">Internfair</a>

@@ -7,6 +7,7 @@ import HomeStudent from './pages/Student/HomeStudent';
 import HomeRecruiter from './pages/Recruiter/HomeRecruiter';
 import InsightRecruiter from './pages/Recruiter/InsightRecruiter';
 import InternfairRecruiter from './pages/Recruiter/InternfairRecruiter';
+import Post from './pages/Recruiter/Post';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
            <Route path='/insight' element={<Insight/>}/>
            <Route path='/insightrecruiter' element={<InsightRecruiter/>}/>
            <Route path='/internfairrecruiter' element={<InternfairRecruiter/>}/>
+           <Route path='/post' element={<Post/>}/>
 
          </Routes>
        </BrowserRouter>
