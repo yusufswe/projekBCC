@@ -14,9 +14,7 @@ const Insight = () => {
   return (
     <div>
       <AppLayoutStudent>
-        <br />
-        <br />
-        <br />
+        <br /><br /><br />
         <div className="w-full h-[2900px] bg-BeauBlue">
           <div className="flex justify-center items-center">
             <h1 className="absolute text-Black text-4xl font-bold mt-[300px]">

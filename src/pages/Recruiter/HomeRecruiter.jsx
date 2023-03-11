@@ -9,6 +9,11 @@ import foto1 from "../../assets/trending.png";
 import foto2 from "../../assets/viraldua.png";
 import foto3 from "../../assets/newuser/insight3.png";
 import foto4 from "../../assets/recruiter/bgPost.png";
+import pic1 from "../../assets/recruiter/pic1.png";
+import pic2 from "../../assets/recruiter/pic2.png";
+import pic3 from "../../assets/recruiter/pic3.png";
+import pic4 from "../../assets/recruiter/pic4.png";
+
 
 const HomeRecruiter = () => {
   return (
@@ -26,6 +31,11 @@ const HomeRecruiter = () => {
           </div>
           <div className="w-full h-[1400px] bg-BeauBlue">
             <div>
+              <img src={pic1} alt="" className="absolute ml-[900px] mt-[210px] z-10" />
+              <img src={pic2} alt="" className="absolute ml-[1100px] mt-[110px]" />
+              <img src={pic3} alt="" className="absolute ml-[1100px] mt-[340px] z-20" />
+              <img src={pic4} alt="" className="absolute ml-[900px] mt-[440px] z-30" />
+              
               <h1 className="absolute text-5xl font-semibold text-Black mt-[70px] ml-[150px]">
                 Temukan talent mahasiswa
               </h1>
@@ -75,22 +85,22 @@ const HomeRecruiter = () => {
               <div className="absolute w-[1300px] h-[200px] bg-White rounded-2xl mt-[600px]">
                 <img
                   src={gojeklogo}
-                  alt=""
+                  alt="gojeklogo"
                   className="absolute  -mt-[20px] ml-[30px]"
                 />
                 <img
                   src={shopeelogo}
-                  alt=""
+                  alt="shopeelogo"
                   className="absolute mt-[53px] ml-[350px]"
                 />
                 <img
                   src={lazadalogo}
-                  alt=""
+                  alt="lazadalogo"
                   className="absolute mt-[23px] ml-[650px]"
                 />
                 <img
                   src={tokopedialogo}
-                  alt=""
+                  alt="tokopedialogo"
                   className="absolute mt-[73px] ml-[980px]"
                 />
               </div>

@@ -6,9 +6,7 @@ const Post = () => {
   return (
     <div>
       <AppLayoutRecruiter>
-        <br />
-        <br />
-        <br />
+        <br /><br /><br />
         <div className="w-full h-[1700px] bg-BeauBlue">
           <img
             src={background}

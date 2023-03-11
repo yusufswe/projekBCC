@@ -25,7 +25,7 @@ const HomeStudent = () => {
               Raih internship impianmu
             </h1>
             <h1 className="absolute text-5xl font-bold text-White -mt-[900px]">
-              bersama FindIn
+              bersama findIn
             </h1>
           </div>
         </div>

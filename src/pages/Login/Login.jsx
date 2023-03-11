@@ -1,13 +1,14 @@
 import React from "react";
 import bg1 from "../../assets/bgLogin1.png";
 import bg2 from "../../assets/bgLogin2.png";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
     <div>
       <div className="flex justify-center">
         <h1 className="absolute text-7xl font-bold text-White mt-[70px] mr-[90px]">
-          FindIn
+          findIn
         </h1>
         <div className="absolute w-[463px] h-[703px] border-4 border-White rounded-3xl p-4 bg-transparent  flex justify-center mt-[200px] mr-[75px]">
           <h1 className="absolute text-White text-3xl font-semibold mt-[10px] mr-[15px]">
@@ -44,11 +45,17 @@ const Login = () => {
             style={{ backgroundColor: "transparent", color: "White" }}
           />
           <p className="absolute text-White text-base mt-[450px] mr-[230px]">
-            Forgot Password? <span className="text-White font-bold">Click Here</span>
+            Forgot Password?{" "}
+            <Link to="/forgotpassword" onClick={() => window.scrollTo(0, 0)}><span className="text-White font-bold">Click Here</span></Link>
           </p>
-          <button className="absolute w-[330px] py-1 font-bold bg-Zomp rounded-3xl text-White mt-[530px] hover:scale-105 duration-400">Login</button>
-          <p className="absolute text-White text-base mt-[590px] mr-[10px]">
-            Don't have an account? <span className="text-White font-bold">Register</span>
+          <button className="absolute w-[330px] py-1 font-bold bg-Zomp rounded-3xl text-White mt-[530px] hover:scale-105 duration-400">
+            Login
+          </button>
+          <p className="absolute text-White text-base mt-[590px] mr-[40px]">
+            Don't have an account?
+            <span className="text-White font-bold">
+                <Link to="/registerverif" onClick={() => window.scrollTo(0, 0)}><div className="flex justify-center"><span>Register</span></div></Link>
+            </span>
           </p>
         </div>
         <img src={bg1} alt="" />
