@@ -17,12 +17,17 @@ module.exports = {
       'White' : '#FFFFFF',
       'Black' : '#000000',
       'RichBlack' : '#081015',
+      'BlueLight' : '#68A2C3',
+      'BlueDark' :'#214052',
     },
     screens: {
       'sm' : '640px',
       'md' : '768px',
       'lg' : '1024px',
       'xl' : '1280px',
+    },
+    fontFamily: {
+      sans: ['Raleway','sans-serif'],
     },
     extend: {},
   },

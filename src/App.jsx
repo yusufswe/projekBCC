@@ -16,6 +16,12 @@ import EndRegisterRecruiter from './pages/Recruiter/Register/EndRegisterRecruite
 import EndRegisterStudent from './pages/Student/Register/EndRegisterStudent';
 import FormVerif from './pages/Student/Register/FormVerif';
 import FormKeahlian from './pages/Student/Register/FormKeahlian';
+import Discover from './pages/Student/Discover';
+import Talent from './pages/Recruiter/Talent';
+import InternDetails from './pages/Student/Discover/InternDetails';
+import DetailStudents from './pages/Student/Discover/DetailStudents';
+import Students from './pages/Student/Discover/Students';
+import TalentDetails from './pages/Recruiter/Talents/TalentDetails';
 
 
 
@@ -40,6 +46,13 @@ function App() {
            <Route path='/recruiterendregister' element={<EndRegisterRecruiter/>}/>
            <Route path='/formverifmahasiswa' element={<FormVerif/>}/>
            <Route path='/formkeahlianmahasiswa' element={<FormKeahlian/>}/>
+           <Route path='/discover' element={<Discover/>}/>
+           <Route path='/talent' element={<Talent/>}/>
+           <Route path='/talentdetails' element={<TalentDetails/>}/>
+           <Route path='/interndetails' element={<InternDetails/>}/>
+           <Route path='/liststudent' element={<Students/>}/>
+           <Route path='/studentdetails' element={<DetailStudents/>}/>
+
 
          </Routes>
        </BrowserRouter>

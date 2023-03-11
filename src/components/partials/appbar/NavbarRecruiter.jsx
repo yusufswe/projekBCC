@@ -13,7 +13,7 @@ const NavbarRecruiter = () => {
             <Link to ="/homerecruiter" onClick={() => window.scrollTo(0, 0)} className="text-White">Home</Link>
           </li>
           <li className="p-3 cursor-pointer">
-            <Link to ="/homerecruiter" onClick={() => window.scrollTo(0, 0)} className="text-White">Talent</Link>
+            <Link to ="/talent" onClick={() => window.scrollTo(0, 0)} className="text-White">Talent</Link>
           </li>
           <li className="p-3 cursor-pointer">
             <Link to ="/insightrecruiter" onClick={() => window.scrollTo(0, 0)} className="text-White">Insight</Link>

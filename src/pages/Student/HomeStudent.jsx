@@ -13,14 +13,15 @@ import foto2 from "../../assets/newuser/foto2.png";
 import foto3 from "../../assets/newuser/foto3.png";
 import foto4 from "../../assets/newuser/foto4.png";
 import fotoartikel from "../../assets/fotoartikel.png";
+import { Link } from "react-router-dom";
 
 const HomeStudent = () => {
   return (
     <div>
       <AppLayoutStudent>
         <div>
-          <img src={jumbotron} className="w-full" alt="jumbotron" />
-          <div className="flex items-center justify-center">
+          <img src={jumbotron} className="w-full overflow-x-hidden" alt="jumbotron" />
+          <div className="flex items-center justify-center overflow-x-hidden">
             <h1 className="absolute text-5xl font-bold text-White -mt-[1100px]">
               Raih internship impianmu
             </h1>
@@ -218,9 +219,10 @@ const HomeStudent = () => {
             </p>
           </div>
           <div className="flex justify-center">
-          <button className="absolute bg-DarkSkyBlue rounded-2xl font-bold text-2xl px-5 hover:scale-105 duration-400 mt-[990px]">
+          <Link to="/insight" onClick={() => window.scrollTo(0, 0)} ><button className="-ml-[50px] absolute bg-DarkSkyBlue rounded-2xl font-bold text-2xl px-5 hover:scale-105 duration-400 mt-[990px]">
             See more
           </button>
+          </Link>
           </div>
         </div>
         <div className="w-full h-[918px]">
@@ -233,9 +235,10 @@ const HomeStudent = () => {
           <h1 className="absolute text-White text-6xl font-bold mt-[420px] ml-[100px]">
             pada internfair
           </h1>
-          <button className="absolute font-bold text-2xl bg-transparent rounded-2xl border-2 border-White text-White py-2 px-3 hover:scale-105 duration-300 mt-[530px] ml-[100px]">
+          <Link to="/internfair" onClick={() => window.scrollTo(0, 0)}><button className="absolute font-bold text-2xl bg-transparent rounded-2xl border-2 border-White text-White py-2 px-3 hover:scale-105 duration-300 mt-[530px] ml-[100px]">
             See more
           </button>
+          </Link>
           <img src={internfair} className="w-full h-[918px]" />
         </div>
       </AppLayoutStudent>

@@ -13,7 +13,7 @@ const Navbar = () => {
             <Link to = "/" className="text-White"  onClick={() => window.scrollTo(0, 0)}>Home</Link>
           </li>
           <li className="p-3 cursor-pointer">
-            <Link to = "/" className="text-White"  onClick={() => window.scrollTo(0, 0)}>Discover</Link>
+            <Link to = "/discover" className="text-White"  onClick={() => window.scrollTo(0, 0)}>Discover</Link>
           </li>
           <li className="p-3 cursor-pointer">
             <Link to = "/insight" className="text-White"  onClick={() => window.scrollTo(0, 0)}>Insight</Link>

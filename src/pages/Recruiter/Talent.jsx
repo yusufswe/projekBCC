@@ -1,86 +1,81 @@
 import React from "react";
-import AppLayoutStudent from "../../components/partials/layout/layout/AppLayoutStudent";
-import logo1 from "../../assets/student/gojekinternfair.png";
-import logo2 from "../../assets/student/marshallinternfair.png";
-import role from "../../assets/student/role.png";
-import location from "../../assets/student/location.png";
+import AppLayoutRecruiter from "../../components/partials/layout/layout/AppLayoutRecruiter";
+import picture from "../../assets/newuser/foto3.png";
+import picture2 from "../../assets/newuser/foto4.png";
+import role from "../../assets/recruiter/roleWhite.png";
+import location from "../../assets/recruiter/locationWhite.png";
 import searchlogo from "../../assets/student/search.png";
 import closelogo from "../../assets/student/close.png";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const Discover = () => {
+const Talent   = () => {
   return (
     <div>
-      <AppLayoutStudent>
+      <AppLayoutRecruiter>
+
         <br />
         <br />
         <br />
         <div className="w-full h-[1500px] bg-BeauBlue">
-          <div className="flex justify-between items-center px-10">
-            <ul className="flex ml-[100px] mt-[30px]">
-              <Link to="/liststudent" onClick={() => window.scrollTo(0,0)}><li className="p-3 font-bold text-2xl">Students</li></Link>
-              <Link to="/discover" ><li className="p-3 font-bold text-2xl">Internships</li></Link>
-            </ul>
-          </div>
-          <div className="absolute w-[741px] h-[1215px] bg-PoliceBlue rounded-3xl mt-[50px] ml-[130px]">
-            <h1 className="absolute text-White font-bold text-3xl mt-[40px] ml-[45px]">
-              Total of 2 Internships
+          <div className="absolute w-[741px] h-[1215px] bg-BlueLight rounded-3xl mt-[50px] ml-[130px]">
+            <h1 className="absolute text-Black font-bold text-3xl mt-[40px] ml-[45px]">
+              Total of 2 talents
             </h1>
 
             <div className="flex cursor-pointer">
-              <Link to="/interndetails" onClick={() => window.scrollTo(0, 0)}>
-                <div className="absolute w-[307px] h-[176px] bg-BeauBlue rounded-2xl mt-[130px] ml-[40px]">
+              <Link to="/talentdetails" onClick={() => window.scrollTo(0, 0)}>
+                <div className="absolute w-[307px] h-[176px] bg-BlueDark rounded-2xl mt-[130px] ml-[40px]">
                   <img
-                    src={logo1}
+                    src={picture}
                     alt=""
-                    className="absolute mt-[30px] ml-[20px]"
-                  />
-                  <h1 className="absolute text-xl font-bold mt-[30px] ml-[95px]">
-                    Front-End
+                    className="absolute mt-[30px] ml-[20px] rounded-full w-[55px]"
+                    />
+                  <h1 className="absolute text-xl text-White font-bold mt-[30px] ml-[95px]">
+                    Muhammad Yusuf
                   </h1>
-                  <h1 className="absolute text-md mt-[60px] ml-[95px]">
-                    Gojek
+                  <h1 className="absolute text-md text-White mt-[60px] ml-[95px]">
+                    Universitas Brawijaya
                   </h1>
                   <img
                     src={role}
                     alt=""
                     className="absolute mt-[100px] ml-[13px]"
-                  />
+                    />
                   <img
                     src={location}
                     alt=""
                     className="absolute mt-[135px] ml-[15px]"
                   />
-                  <p className="font-semibold mt-[95px] ml-[45px]">
+                  <p className="font-semibold mt-[95px] text-White ml-[45px]">
                     Programming
                   </p>
-                  <p className="font-semibold mt-[10px] ml-[45px]">Malang</p>
+                  <p className="font-semibold mt-[10px] text-White ml-[45px]">Malang</p>
                 </div>
               </Link>
-              <div className="absolute w-[307px] h-[176px] bg-BeauBlue rounded-2xl mt-[130px] ml-[390px]">
+              <div className="absolute w-[307px] h-[176px] bg-BlueDark rounded-2xl mt-[130px] ml-[390px]">
                 <img
-                  src={logo2}
+                  src={picture2}
                   alt=""
-                  className="absolute mt-[30px] ml-[20px]"
-                />
-                <h1 className="absolute text-xl font-bold mt-[30px] ml-[95px]">
-                  Back-End
+                  className="absolute mt-[30px] ml-[20px] rounded-full w-[55px]"
+                  />
+                <h1 className="absolute text-xl text-White font-bold mt-[30px] ml-[95px]">
+                  Fikri Haikal
                 </h1>
-                <h1 className="absolute text-md mt-[60px] ml-[95px]">
-                  Marshall
+                <h1 className="absolute text-md text-White mt-[60px] ml-[95px]">
+                  Universitas Brawijaya
                 </h1>
                 <img
                   src={role}
                   alt=""
                   className="absolute mt-[100px] ml-[13px]"
-                />
+                  />
                 <img
                   src={location}
                   alt=""
                   className="absolute mt-[135px] ml-[15px]"
-                />
-                <p className="font-semibold mt-[95px] ml-[45px]">Programming</p>
-                <p className="font-semibold mt-[10px] ml-[45px]">Jakarta</p>
+                  />
+                <p className="font-semibold mt-[95px] ml-[45px] text-White ">Programming</p>
+                <p className="font-semibold mt-[10px] ml-[45px] text-White ">Jakarta</p>
               </div>
             </div>
             <div className="absolute w-[328px] h-[1049px] bg-YankeesBlue ml-[900px] rounded-3xl">
@@ -103,47 +98,7 @@ const Discover = () => {
                 </li>
               </ul>
               <div>
-                <h3 className="text-White font-sans font-semibold text-xl mt-[30px] ml-[34px]">
-                  Tipe internship
-                </h3>
                 <div className="mt-[30px] ml-[30px]">
-                  <input
-                    type="checkbox"
-                    id="full-time"
-                    className="h-4 w-4 text-White  rounded"
-                  />
-                  <label
-                    htmlFor="full-time"
-                    className="text-White font-sans ml-2 font-semibold text-xl mt-[30px]"
-                  >
-                    Full-time
-                  </label>
-                </div>
-                <div className="mt-[30px] ml-[30px]">
-                  <input
-                    type="checkbox"
-                    id="part-time"
-                    className="h-4 w-4 text-Whiterounded"
-                  />
-                  <label
-                    htmlFor="part-time"
-                    className="text-White font-sans ml-2 font-semibold text-xl mt-[30px]"
-                  >
-                    Part-time
-                  </label>
-                </div>
-                <div className="mt-[30px] ml-[30px]">
-                  <input
-                    type="checkbox"
-                    id="remote"
-                    className="h-4 w-4 text-White rounded"
-                  />
-                  <label
-                    htmlFor="remote"
-                    className="text-White font-sans ml-2 font-semibold text-xl mt-[30px]"
-                  >
-                    Bisa kerja remote
-                  </label>
                   <h3 className="absolute text-White font-sans mt-[25px] text-xl">
                     Expertise
                   </h3>
@@ -167,7 +122,7 @@ const Discover = () => {
                       <input
                         type="text"
                         className="mt-[15px] rounded-2xl py-1"
-                      />
+                        />
                       <div className="w-[125px] h-[39px] bg-BeauBlue rounded-xl mt-[15px] flex justify-center items-center">
                         <h3 className="absolute text-Black font-semibold font-sans w-[100px]">
                           Front-End
@@ -176,7 +131,7 @@ const Discover = () => {
                           src={closelogo}
                           alt=""
                           className="absolute ml-[90px] cursor-pointer"
-                        />
+                          />
                       </div>
                     </div>
                     <div>
@@ -187,11 +142,11 @@ const Discover = () => {
                         src={searchlogo}
                         alt=""
                         className="absolute mt-[23px] ml-[5px]"
-                      />
+                        />
                       <input
                         type="text"
                         className="mt-[15px] rounded-2xl py-1"
-                      />
+                        />
                       <div className="w-[125px] h-[39px] bg-BeauBlue rounded-xl mt-[15px] flex justify-center items-center">
                         <h3 className="absolute text-Black font-semibold font-sans w-[100px]">
                           Malang
@@ -200,7 +155,7 @@ const Discover = () => {
                           src={closelogo}
                           alt=""
                           className="absolute ml-[90px] cursor-pointer"
-                        />
+                          />
                       </div>
                     </div>
                   </div>
@@ -209,9 +164,9 @@ const Discover = () => {
             </div>
           </div>
         </div>
-      </AppLayoutStudent>
+      </AppLayoutRecruiter>
     </div>
   );
 };
 
-export default Discover;
+export default Talent;

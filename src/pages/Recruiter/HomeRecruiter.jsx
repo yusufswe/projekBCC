@@ -13,6 +13,7 @@ import pic1 from "../../assets/recruiter/pic1.png";
 import pic2 from "../../assets/recruiter/pic2.png";
 import pic3 from "../../assets/recruiter/pic3.png";
 import pic4 from "../../assets/recruiter/pic4.png";
+import { Link } from "react-router-dom";
 
 
 const HomeRecruiter = () => {
@@ -160,16 +161,20 @@ const HomeRecruiter = () => {
                 </p>
               </div>
               <div className="flex justify-center">
-                <button className="absolute bg-DarkSkyBlue rounded-2xl font-bold text-2xl px-5 hover:scale-105 duration-400 mt-[990px]">
+                <Link to="/insightrecruiter" onClick={() => window.scrollTo(0, 0)}><button className="-ml-[50px] absolute bg-DarkSkyBlue rounded-2xl font-bold text-2xl px-5 hover:scale-105 duration-400 mt-[990px]">
                   See more
                 </button>
+                </Link>
               </div>
             </div>
             <div className="w-full h-[836px] bg-BeauBlue">
               <h1 className="absolute ml-[850px] mt-[200px] text-5xl font-bold">Lihat apa yang dapat dilakukan FindIn untuk</h1>
               <h1 className="absolute ml-[850px] mt-[300px] text-5xl font-bold">perekrutan bakat awal Anda</h1>
               <img src={foto4} alt="" className="absolute w-1/2 h-[836px] rounded-none"/>
-              <button className="absolute rounded-2xl text-Black  px-5 py-3 font-bold text-3xl hover:scale-105 duration-400 bg-Zomp ml-[860px] mt-[400px]">Post Now</button>
+              <Link to="/post" onClick={() => window.scrollTo(0, 0)}><button className="absolute rounded-2xl text-Black  px-5 py-3 font-bold text-3xl hover:scale-105 duration-400 bg-Zomp ml-[860px] mt-[400px]">
+                Post Now
+              </button>
+              </Link>
             </div>
           </div>
         </div>

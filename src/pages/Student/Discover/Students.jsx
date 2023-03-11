@@ -1,14 +1,15 @@
 import React from "react";
-import AppLayoutStudent from "../../components/partials/layout/layout/AppLayoutStudent";
-import logo1 from "../../assets/student/gojekinternfair.png";
-import logo2 from "../../assets/student/marshallinternfair.png";
-import role from "../../assets/student/role.png";
-import location from "../../assets/student/location.png";
-import searchlogo from "../../assets/student/search.png";
-import closelogo from "../../assets/student/close.png";
-import { Link, Route, Routes } from "react-router-dom";
+import AppLayoutStudent from "../../../components/partials/layout/layout/AppLayoutStudent";
+import picture from "../../../assets/newuser/foto3.png";
+import picture2 from "../../../assets/newuser/foto4.png";
 
-const Discover = () => {
+import role from "../../../assets/student/role.png";
+import location from "../../../assets/student/location.png";
+import searchlogo from "../../../assets/student/search.png";
+import closelogo from "../../../assets/student/close.png";
+import { Link} from "react-router-dom";
+
+const Students   = () => {
   return (
     <div>
       <AppLayoutStudent>
@@ -24,22 +25,22 @@ const Discover = () => {
           </div>
           <div className="absolute w-[741px] h-[1215px] bg-PoliceBlue rounded-3xl mt-[50px] ml-[130px]">
             <h1 className="absolute text-White font-bold text-3xl mt-[40px] ml-[45px]">
-              Total of 2 Internships
+              Total of 2 students
             </h1>
 
             <div className="flex cursor-pointer">
-              <Link to="/interndetails" onClick={() => window.scrollTo(0, 0)}>
+              <Link to="/studentdetails" onClick={() => window.scrollTo(0, 0)}>
                 <div className="absolute w-[307px] h-[176px] bg-BeauBlue rounded-2xl mt-[130px] ml-[40px]">
                   <img
-                    src={logo1}
+                    src={picture}
                     alt=""
-                    className="absolute mt-[30px] ml-[20px]"
+                    className="absolute mt-[30px] ml-[20px] rounded-full w-[55px]"
                   />
                   <h1 className="absolute text-xl font-bold mt-[30px] ml-[95px]">
-                    Front-End
+                    Muhammad Yusuf
                   </h1>
                   <h1 className="absolute text-md mt-[60px] ml-[95px]">
-                    Gojek
+                    Universitas Brawijaya
                   </h1>
                   <img
                     src={role}
@@ -59,15 +60,15 @@ const Discover = () => {
               </Link>
               <div className="absolute w-[307px] h-[176px] bg-BeauBlue rounded-2xl mt-[130px] ml-[390px]">
                 <img
-                  src={logo2}
+                  src={picture2}
                   alt=""
-                  className="absolute mt-[30px] ml-[20px]"
+                  className="absolute mt-[30px] ml-[20px] rounded-full w-[55px]"
                 />
                 <h1 className="absolute text-xl font-bold mt-[30px] ml-[95px]">
-                  Back-End
+                  Fikri Haikal
                 </h1>
                 <h1 className="absolute text-md mt-[60px] ml-[95px]">
-                  Marshall
+                  Universitas Brawijaya
                 </h1>
                 <img
                   src={role}
@@ -103,47 +104,7 @@ const Discover = () => {
                 </li>
               </ul>
               <div>
-                <h3 className="text-White font-sans font-semibold text-xl mt-[30px] ml-[34px]">
-                  Tipe internship
-                </h3>
                 <div className="mt-[30px] ml-[30px]">
-                  <input
-                    type="checkbox"
-                    id="full-time"
-                    className="h-4 w-4 text-White  rounded"
-                  />
-                  <label
-                    htmlFor="full-time"
-                    className="text-White font-sans ml-2 font-semibold text-xl mt-[30px]"
-                  >
-                    Full-time
-                  </label>
-                </div>
-                <div className="mt-[30px] ml-[30px]">
-                  <input
-                    type="checkbox"
-                    id="part-time"
-                    className="h-4 w-4 text-Whiterounded"
-                  />
-                  <label
-                    htmlFor="part-time"
-                    className="text-White font-sans ml-2 font-semibold text-xl mt-[30px]"
-                  >
-                    Part-time
-                  </label>
-                </div>
-                <div className="mt-[30px] ml-[30px]">
-                  <input
-                    type="checkbox"
-                    id="remote"
-                    className="h-4 w-4 text-White rounded"
-                  />
-                  <label
-                    htmlFor="remote"
-                    className="text-White font-sans ml-2 font-semibold text-xl mt-[30px]"
-                  >
-                    Bisa kerja remote
-                  </label>
                   <h3 className="absolute text-White font-sans mt-[25px] text-xl">
                     Expertise
                   </h3>
@@ -214,4 +175,4 @@ const Discover = () => {
   );
 };
 
-export default Discover;
+export default Students;
