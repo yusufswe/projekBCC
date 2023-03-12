@@ -1,21 +1,12 @@
 import React from "react";
-import background from "../../../assets/bgLogin1.png";
+import background from "../../../assets/student/endStudent.png";
 import { Link } from "react-router-dom";
 
 const EndRegisterStudent = () => {
   return (
     <div>
       <div className="flex justify-center bg-TealBlue">
-        <h2 className="absolute text-White text-5xl font-bold mr-[1170px] mt-[400px]">
-          Kami sangat 
-        </h2>
-        <h2 className="absolute text-White text-5xl font-bold mr-[1000px] mt-[470px]">
-          berterimakasih atas
-        </h2>
-        <h2 className="absolute text-White text-5xl font-bold mr-[1030px] mt-[540px]">
-          pendaftaran kamu
-        </h2>
-        <img src={background} alt="" className="rounded-r-[220px]" />
+        <img src={background} alt=""/>
         <div className="w-full bg-TealBlue">
           
           <h1 className="absolute text-White text-5xl font-bold mt-[440px] ml-[100px]">Silahkan melakukan login</h1>

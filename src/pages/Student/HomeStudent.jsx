@@ -1,6 +1,6 @@
 import React from "react";
 import AppLayoutStudent from "../../components/partials/layout/layout/AppLayoutStudent";
-import jumbotron from "../../assets/newuser/jumbotron.png";
+import jumbo from "../../assets/student/groupHome.png";
 import carilowongan from "../../assets/newuser/carilowongan.png";
 import panah from "../../assets/newuser/panah.png";
 import apply from "../../assets/newuser/apply.png";
@@ -20,18 +20,12 @@ const HomeStudent = () => {
     <div>
       <AppLayoutStudent>
         <div>
-          <img src={jumbotron} className="w-full overflow-x-hidden" alt="jumbotron" />
           <div className="flex items-center justify-center overflow-x-hidden">
-            <h2 className="absolute text-5xl font-bold text-White -mt-[1100px]">
-              Raih internship impianmu
-            </h2>
-            <h2 className="absolute text-5xl font-bold text-White -mt-[900px]">
-              bersama findIn
-            </h2>
+          <img src={jumbo} className="w-full overflow-x-hidden" alt="jumbotron" />
           </div>
         </div>
 
-        <img src={panah} className="absolute mt-[360px] ml-[380px] w-[450px]" />
+        <img src={panah} alt="" className="absolute mt-[360px] ml-[380px] w-[450px]" />
 
         <div className="w-full h-[2000px] bg-white">
           <h3 className="text-5xl font-bold mt-[130px] ml-[110px]">
@@ -44,7 +38,7 @@ const HomeStudent = () => {
             temui di discover
           </p>
           <div>
-            <img src={carilowongan} className="absolute ml-[150px] w-[250px]" />
+            <img src={carilowongan} alt="" className="absolute ml-[150px] w-[250px]" />
           </div>
           <h3 className="text-5xl font-bold mt-[400px] ml-[1050px]">Apply</h3>
           <p className="absolute text-3xl mt-[130px] ml-[180px]">
@@ -55,10 +49,12 @@ const HomeStudent = () => {
           </p>
           <img
             src={apply}
+            alt=""
             className="absolute ml-[950px] mt-[100px] w-[350px]"
           />
           <img
             src={arrow2}
+            alt=""
             className="absolute mt-[270px] ml-[580px] w-[450px]"
           />
           <h3 className="text-5xl font-bold mt-[480px] ml-[180px]">Diterima</h3>
@@ -73,10 +69,12 @@ const HomeStudent = () => {
           </p>
           <img
             src={diterima}
+            alt=""
             className="absolute ml-[150px] mt-[70px] w-[250px]"
           />
           <img
             src={panah}
+            alt=""
             className="absolute ml-[480px] mt-[250px] w-[450px]"
           />
           <h3 className="text-5xl font-bold mt-[400px] ml-[900px]">
@@ -90,6 +88,7 @@ const HomeStudent = () => {
           </p>
           <img
             src={followup}
+            alt=""
             className="absolute mt[10px] ml-[800px] w-[450px]"
           />
         </div>
@@ -109,6 +108,7 @@ const HomeStudent = () => {
           <div className="w-[306px] h-[306px] absolute ml-[1100px] mt-[150px] bg-Zomp"></div>
           <img
             src={foto1}
+            alt=""
             className="absolute z-30 ml-[340px] mt-[180px] w-[130px]"
           />
           <p className="absolute text-xl font-bold ml-[380px] mt-[330px] z-40">
@@ -123,6 +123,7 @@ const HomeStudent = () => {
           <div className="w-[306px] h-[306px] mt-[150px] absolute ml-[250px] bg-Zomp"></div>
           <img
             src={foto2}
+            alt=""
             className="absolute ml-[1200px] mt-[180px] z-30 w-[130px]"
           />
           <p className="absolute text-xl font-bold ml-[1235px] mt-[330px] z-40">
@@ -137,6 +138,7 @@ const HomeStudent = () => {
           <div className="w-[306px] h-[306px] mt-[650px] absolute ml-[1100px] bg-Zomp"></div>
           <img
             src={foto3}
+            alt=""
             className="absolute mt-[680px] ml-[340px] z-40 w-[130px]"
           />
           <p className="absolute z-40 mt-[830px] font-bold text-xl ml-[380px]">
@@ -151,6 +153,7 @@ const HomeStudent = () => {
           <div className="w-[306px] h-[306px] mt-[650px] absolute ml-[250px] bg-Zomp"></div>
           <img
             src={foto4}
+            alt=""
             className="absolute z-40 ml-[1200px] mt-[680px] w-[130px]"
           />
           <p className="absolute z-40 mt-[833px] font-bold text-xl ml-[1248px]">
@@ -241,7 +244,7 @@ const HomeStudent = () => {
             See more
           </button>
           </Link>
-          <img src={internfair} className="w-full h-[918px]" />
+          <img src={internfair} alt=""className="w-full h-[918px]" />
         </div>
       </AppLayoutStudent>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import AppLayoutRecruiter from "../../components/partials/layout/layout/AppLayoutRecruiter";
-import jumborecruiter from "../../assets/recruiter/jumbotronrecruiter.png";
+import groupRecruiter from "../../assets/recruiter/groupRecruiter.png";
 import gojeklogo from "../../assets/gojek.png";
 import shopeelogo from "../../assets/shopee.png";
 import lazadalogo from "../../assets/lazada.png";
@@ -21,15 +21,7 @@ const HomeRecruiter = () => {
     <div>
       <AppLayoutRecruiter>
         <div>
-          <img src={jumborecruiter} alt="" className="w-full" />
-          <div className="flex justify-center items-center">
-            <h2 className="absolute text-5xl font-bold text-White -mt-[1100px]">
-              Terhubung dengan mahasiswa manapun
-            </h2>
-            <h1 className="absolute text-5xl font-bold text-White -mt-[900px]">
-              di kampus mana pun
-            </h1>
-          </div>
+          <img src={groupRecruiter} alt="" className="w-full" />
           <div className="w-full h-[1400px] bg-BeauBlue">
             <div>
               <img src={pic1} alt="" className="absolute ml-[900px] mt-[210px] z-10" />

@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../../../assets/bgLogin2.png";
+import background from "../../../assets/recruiter/endRekruter.png";
 import { Link } from "react-router-dom";
 
 const EndRegisterRecruiter = () => {
@@ -16,19 +16,10 @@ const EndRegisterRecruiter = () => {
             </button>
           </Link>
         </div>
-        <h3 className="absolute text-Black  text-5xl font-bold mt-[400px] ml-[910px]">
-          Kami sangat
-        </h3>
-        <h3 className="absolute text-Black  text-5xl font-bold mt-[470px] ml-[750px]">
-          berterimakasih atas
-        </h3>
-        <h3 className="absolute text-Black text-5xl font-bold mt-[540px] ml-[750px]">
-          pendaftaran anda
-        </h3>
         <img
           src={background}
           alt=""
-          className="w-full h-[1080px] rounded-l-[220px]"
+          className="w-full h-[1080px]"
         />
       </div>
     </div>

@@ -1,21 +1,12 @@
 import React from "react";
-import background from "../../../assets/bgLogin1.png";
 import { Link } from "react-router-dom";
+import bg from "../../../assets/student/keahlianStudent.png";
 
 const FormKeahlian = () => {
   return (
     <div>
       <div className="flex justify-center bg-TealBlue">
-        <h2 className="absolute text-White text-5xl font-bold mr-[920px] mt-[400px]">
-          Tunjukin siapa dirimu
-        </h2>
-        <h2 className="absolute text-White text-5xl font-bold mr-[1000px] mt-[470px]">
-          agar semua dapat
-        </h2>
-        <h2 className="absolute text-White text-5xl font-bold mr-[860px] mt-[540px]">
-          mengakui kehebatanmu
-        </h2>
-        <img src={background} alt="" className="rounded-r-[220px]" />
+        <img src={bg} alt="" />
         <div className="w-full bg-TealBlue">
           <h3 className="absolute text-2xl text-White font-semibold ml-[200px] mt-[130px]">
             Expertise

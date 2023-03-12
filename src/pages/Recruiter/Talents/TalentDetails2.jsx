@@ -1,5 +1,4 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 import AppLayoutRecruiter from "../../../components/partials/layout/layout/AppLayoutRecruiter";
 import { Link } from "react-router-dom";
 import locationlogo from "../../../assets/recruiter/locationWhite.png";
@@ -11,7 +10,6 @@ import poststudent from "../../../assets/student/poststudent.jpg"
 
 
 const TalentDetails = () => {
-  const { id } = useParams();
   return (
     <div>
         <AppLayoutRecruiter>

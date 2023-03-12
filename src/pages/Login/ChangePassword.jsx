@@ -1,7 +1,6 @@
 import React from "react";
-import bg1 from "../../assets/bgLogin1.png";
-import bg2 from "../../assets/bgLogin2.png";
 import { Link } from "react-router-dom";
+import bgLogin from "../../assets/groupLogin.png";
 
 const ChangePassword = () => {
   return (
@@ -40,8 +39,7 @@ const ChangePassword = () => {
           </button>
           </Link>
         </div>
-        <img src={bg1} alt="" />
-        <img src={bg2} alt="" className="w-full" />
+        <img src={bgLogin} alt="" className="w-full" />
       </div>
     </div>
   );

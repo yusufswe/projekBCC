@@ -1,5 +1,4 @@
 import React from "react";
-import { useParams } from "react-router-dom";
 import AppLayoutStudent from "../../../components/partials/layout/layout/AppLayoutStudent";
 import { Link } from "react-router-dom";
 import locationlogo from "../../../assets/student/location.png";
@@ -10,9 +9,7 @@ import foto from "../../../assets/newuser/foto3.png";
 import foto2 from "../../../assets/newuser/foto4.png";
 import poststudent from "../../../assets/student/poststudent.jpg"
 
-
 const DetailStudents2 = () => {
-  const { id } = useParams();
   return (
     <div>
       <AppLayoutStudent>

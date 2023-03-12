@@ -19,7 +19,7 @@ const Students   = () => {
         <div className="w-full h-[1500px] bg-BeauBlue">
           <div className="flex justify-between items-center px-10">
             <ul className="flex ml-[100px] mt-[30px]">
-              <Link to="/liststudent" onClick={() => window.scrollTo(0,0)}><li className="p-3 font-bold text-2xl">Students</li></Link>
+              <Link to="/liststudent" onClick={() => window.scrollTo(0,0)}><li className="p-3 font-bold text-2xl border-b-2 border-transparent border-Black">Students</li></Link>
               <Link to="/discover" ><li className="p-3 font-bold text-2xl">Internships</li></Link>
             </ul>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../../../assets/bgLogin2.png";
+import background from "../../../assets/recruiter/registRekruter.png";
 import { Link } from "react-router-dom";
 
 const FormRegisterRecruiter = () => {
@@ -50,19 +50,10 @@ const FormRegisterRecruiter = () => {
             </button>
           </Link>
         </div>
-        <h3 className="absolute text-Black  text-5xl font-bold mt-[400px] ml-[750px]">
-          Lihat apa yang dapat
-        </h3>
-        <h3 className="absolute text-Black  text-5xl font-bold mt-[470px] ml-[750px]">
-          dilakukan findIn untuk
-        </h3>
-        <h3 className="absolute text-Black text-5xl font-bold mt-[540px] ml-[1150px]">
-          Anda
-        </h3>
         <img
           src={background}
           alt=""
-          className="w-full h-[1080px] rounded-l-[220px]"
+          className="w-full "
         />
       </div>
     </div>

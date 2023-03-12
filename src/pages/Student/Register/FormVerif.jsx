@@ -1,21 +1,12 @@
 import React from "react";
-import background from "../../../assets/bgLogin1.png";
 import { Link } from "react-router-dom";
+import bg from "../../../assets/student/verifStudent.png";
 
 const FormVerif = () => {
   return (
     <div>
       <div className="flex justify-center bg-TealBlue">
-        <h2 className="absolute text-White text-5xl font-bold mr-[910px] mt-[400px]">
-          Bantu rekruiter agar
-        </h2>
-        <h2 className="absolute text-White text-5xl font-bold mr-[950px] mt-[470px]">
-          dapat lebih mudah
-        </h2>
-        <h2 className="absolute text-White text-5xl font-bold mr-[1060px] mt-[540px]">
-          mencari kamu
-        </h2>
-        <img src={background} alt="" className="rounded-r-[220px]" />
+        <img src={bg} alt="" />
         <div className="w-full bg-TealBlue">
         <h3 className="absolute text-2xl text-White font-semibold ml-[200px] mt-[30px]">
             Domisili

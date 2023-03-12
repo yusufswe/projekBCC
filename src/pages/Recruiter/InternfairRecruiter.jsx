@@ -1,11 +1,11 @@
 import React from 'react'
 import AppLayoutRecruiter from '../../components/partials/layout/layout/AppLayoutRecruiter'
-import JumboInternfair from "../../assets/JumboInternfair.png";
 import Card from "../../components/Card/Card";
 import gojeklogo from "../../assets/gojek.png";
 import shopeelogo from "../../assets/shopee.png";
 import lazadalogo from "../../assets/lazada.png";
 import tokopedialogo from "../../assets/tokopedia.png";
+import bgInternfair from "../../assets/internBg.png";
 
 
 const InternfairRecruiter = () => {
@@ -14,10 +14,7 @@ const InternfairRecruiter = () => {
       <AppLayoutRecruiter>
         <br /><br /><br />
         <div className="flex justify-center items-center">
-          <img src={JumboInternfair} alt="" className="w-full h-[834px]" />
-          <h1 className="absolute text-5xl font-bold text-White">
-            Ikuti internfair dan jangkau koneksi nyata seluas mungkin
-          </h1>
+          <img src={bgInternfair} alt="" className="w-full" />
         </div>
 
         <div className="w-full h-[550px] bg-BeauBlue">

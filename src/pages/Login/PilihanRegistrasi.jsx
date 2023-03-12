@@ -1,7 +1,6 @@
 import React from "react";
-import bg1 from "../../assets/bgLogin1.png";
-import bg2 from "../../assets/bgLogin2.png";
 import { NavLink } from "react-router-dom";
+import bgLogin from "../../assets/groupLogin.png";
 
 const PilihanRegistrasi = () => {
   return (
@@ -28,15 +27,14 @@ const PilihanRegistrasi = () => {
           <nav>
             <NavLink to="/recruiterregister" onClick={() => window.scrollTo(0,0)}>
               <h3 className="absolute text-6xl font-bold text-White">
-                <span className="absolute -ml-[100px] -mt-[25px] cursor-pointer">Recruiter</span>
+                <span className="absolute -ml-[125px] -mt-[25px] cursor-pointer">Recruiter</span>
               </h3>
             </NavLink>
           </nav>
         </div>
       </div>
       <div className="flex justify-center">
-        <img src={bg1} alt="" className="" />
-        <img src={bg2} alt="" className="w-full" />
+        <img src={bgLogin} alt="" className="w-full" />
       </div>
     </div>
   );
