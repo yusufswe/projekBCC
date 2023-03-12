@@ -44,7 +44,7 @@ const Login = () => {
             type="password"
             style={{ backgroundColor: "transparent", color: "White" }}
           />
-          <p className="absolute text-White text-base mt-[450px] mr-[230px]">
+          <p className="absolute text-White text-base mt-[450px] mr-[200px]">
             Forgot Password?{" "}
             <Link to="/forgotpassword" onClick={() => window.scrollTo(0, 0)}><span className="text-White font-bold">Click Here</span></Link>
           </p>

@@ -2,10 +2,9 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import AppLayoutRecruiter from "../../../components/partials/layout/layout/AppLayoutRecruiter";
 import { Link } from "react-router-dom";
-import locationlogo from "../../../assets/student/location.png";
-import jobtypelogo from "../../../assets/student/tipejob.png";
-import role from "../../../assets/student/role.png";
-import location from "../../../assets/student/location.png";
+import locationlogo from "../../../assets/recruiter/locationWhite.png";
+import jobtypelogo from "../../../assets/recruiter/degreeWhite.png";
+import role from "../../../assets/recruiter/roleWhite.png";
 import foto from "../../../assets/newuser/foto3.png";
 import foto2 from "../../../assets/newuser/foto4.png";
 import poststudent from "../../../assets/student/poststudent.jpg"
@@ -51,6 +50,7 @@ const TalentDetails = () => {
             <h3 className="absolute font-sans ml-[90px] mt-[340px] text-White">
               Informatics Engineering
             </h3>
+            <button className="absolute bg-Zomp rounded-2xl py-2 px-2 font-sans font-bold text-xl ml-[600px] mt-[75px] hover:scale-105 duration-400 ">Contact</button>
 
             <h3 className="absolute font-sans font-semibold text-xl ml-[40px] mt-[410px] text-White">
               Skills & Expertise
@@ -91,7 +91,7 @@ const TalentDetails = () => {
                   className="absolute mt-[100px] ml-[13px]"
                   />
                 <img
-                  src={location}
+                  src={locationlogo}
                   alt=""
                   className="absolute mt-[135px] ml-[15px]"
                   />

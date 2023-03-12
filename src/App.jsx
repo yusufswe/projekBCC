@@ -27,6 +27,12 @@ import InternDetails2 from './pages/Student/Discover/InternDetails2';
 import TalentDetails2 from './pages/Recruiter/Talents/TalentDetails2';
 import InsightDetails from './pages/Student/InsightDetails';
 import ChangePassword from './pages/Login/ChangePassword';
+import Profile from './pages/Student/Profile/Profile';
+import Dashboard from './pages/Student/Profile/Dashboard';
+import ProfileRecruiter from './pages/Recruiter/Profile/ProfileRecruiter';
+import DashboardRecruiter from './pages/Recruiter/Profile/DashboardRecruiter';
+import DaftarTerpilih from './pages/Student/Profile/DaftarTerpilih';
+import Pelamar from './pages/Recruiter/Profile/Pelamar';
 
 function App() {
   return (
@@ -60,6 +66,12 @@ function App() {
            <Route path='/liststudent' element={<Students/>}/>
            <Route path='/studentdetails' element={<DetailStudents/>}/>
            <Route path='/studentdetails2' element={<DetailStudents2/>}/>
+           <Route path='/profile' element={<Profile/>}/>
+           <Route path='/dashboard' element={<Dashboard/>}/>
+           <Route path='/daftarterpilih' element={<DaftarTerpilih/>}/>
+           <Route path='/profilerecruiter' element={<ProfileRecruiter/>}/>
+           <Route path='/dashboardrecruiter' element={<DashboardRecruiter/>}/>
+           <Route path='/pelamar' element={<Pelamar/>}/>
          </Routes>
        </BrowserRouter>
      </div>

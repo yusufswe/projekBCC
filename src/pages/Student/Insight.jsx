@@ -8,7 +8,7 @@ import img5 from "../../assets/student/viralstudent.png";
 import img6 from "../../assets/student/viralstudent1.png";
 import img7 from "../../assets/student/viralstudent2.png";
 import img8 from "../../assets/student/viralstudent3.png";
-
+import { Link } from "react-router-dom";
 
 const Insight = () => {
   return (
@@ -38,7 +38,8 @@ const Insight = () => {
             Trending Hari ini
           </h3>
           <div className="flex justify-center items-center">
-            <div className="absolute bg-TealBlue w-[1276px] h-[284px]  mt-[2100px] rounded-3xl">
+            <Link to="/insightdetails">
+            <div className=" absolute bg-TealBlue w-[1276px] h-[284px]  mt-[890px] -ml-[630px] rounded-3xl cursor-pointer overflow-x-hidden">
               <p className="absolute text-White text-xl font-semibold ml-[500px] mt-[20px]">
                 The Benefits of Interning
               </p>
@@ -52,6 +53,7 @@ const Insight = () => {
               </p>
               <img src={img1} alt="" />
             </div>
+            </Link>
           </div>
           <div className="flex">
             <div className="absolute w-[330px] h-[330px] bg-TealBlue rounded-2xl mt-[1300px] ml-[130px]">
