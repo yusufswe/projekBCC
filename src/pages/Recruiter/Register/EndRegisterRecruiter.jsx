@@ -16,15 +16,15 @@ const EndRegisterRecruiter = () => {
             </button>
           </Link>
         </div>
-        <h1 className="absolute text-Black  text-5xl font-bold mt-[400px] ml-[910px]">
+        <h3 className="absolute text-Black  text-5xl font-bold mt-[400px] ml-[910px]">
           Kami sangat
-        </h1>
-        <h1 className="absolute text-Black  text-5xl font-bold mt-[470px] ml-[750px]">
+        </h3>
+        <h3 className="absolute text-Black  text-5xl font-bold mt-[470px] ml-[750px]">
           berterimakasih atas
-        </h1>
-        <h1 className="absolute text-Black text-5xl font-bold mt-[540px] ml-[750px]">
+        </h3>
+        <h3 className="absolute text-Black text-5xl font-bold mt-[540px] ml-[750px]">
           pendaftaran anda
-        </h1>
+        </h3>
         <img
           src={background}
           alt=""

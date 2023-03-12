@@ -11,9 +11,9 @@ const Login = () => {
           findIn
         </h1>
         <div className="absolute w-[463px] h-[703px] border-4 border-White rounded-3xl p-4 bg-transparent  flex justify-center mt-[200px] mr-[75px]">
-          <h1 className="absolute text-White text-3xl font-semibold mt-[10px] mr-[15px]">
+          <h3 className="absolute text-White text-3xl font-semibold mt-[10px] mr-[15px]">
             Login
-          </h1>
+          </h3>
           <p className="absolute text-White text-xl font-semibold mr-[240px] mt-[100px]">
             Username/email
           </p>

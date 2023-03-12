@@ -30,9 +30,9 @@ const Post = () => {
                   </p>
                 </div>
                 <div className="absolute w-[241px] h-[320px] bg-Zomp ml-[120px] mt-[500px] flex justify-center hover:border-4 hover:border-Black cursor-pointer">
-                  <h1 className="absolute text-Black font-semibold text-xl mt-[15px]">
+                  <h2 className="absolute text-Black font-semibold text-xl mt-[15px]">
                     Professional Post
-                  </h1>
+                  </h2>
                   <p className="absolute text-Black font-bold text-xl mt-[45px]">
                     Paid
                   </p>
@@ -43,54 +43,54 @@ const Post = () => {
                   </p>
                 </div>
               </div>
-              <h1 className="absolute text-3xl text-White font-bold mt-[30px]">
+              <h2 className="absolute text-3xl text-White font-bold mt-[30px]">
                 Buat lowongan baru anda
-              </h1>
-              <h1 className="absolute text-3xl text-White font-semibold mr-[590px] mt-[130px]">
+              </h2>
+              <h2 className="absolute text-3xl text-White font-semibold mr-[590px] mt-[130px]">
                 Jabatan
-              </h1>
+              </h2>
               <input
                 type="text"
                 className="absolute rounded-2xl w-[350px] py-3 mt-[190px] mr-[370px]"
               />
-              <h1 className="absolute text-3xl text-White font-semibold mr-[550px] mt-[280px]">
+              <h2 className="absolute text-3xl text-White font-semibold mr-[550px] mt-[280px]">
                 Perusahaan
-              </h1>
+              </h2>
               <input
                 type="text"
                 className="absolute rounded-2xl w-[350px] py-3 mt-[340px] mr-[370px]"
               />
-              <h1 className="absolute text-3xl text-White font-semibold mr-[450px] mt-[430px]">
+              <h2 className="absolute text-3xl text-White font-semibold mr-[450px] mt-[430px]">
                 Jenis tempat kerja
-              </h1>
+              </h2>
               <input
                 type="text"
                 className="absolute rounded-2xl w-[350px] py-3 mt-[490px] mr-[370px]"
               />
-              <h1 className="absolute text-3xl text-White font-semibold mr-[480px] mt-[580px]">
+              <h2 className="absolute text-3xl text-White font-semibold mr-[480px] mt-[580px]">
                 Lokasi pekerjaan
-              </h1>
+              </h2>
               <input
                 type="text"
                 className="absolute rounded-2xl w-[350px] py-3 mt-[640px] mr-[370px]"
               />
-              <h1 className="absolute text-3xl text-White font-semibold mr-[490px] mt-[730px]">
+              <h2 className="absolute text-3xl text-White font-semibold mr-[490px] mt-[730px]">
                 Jenis Pekerjaan
-              </h1>
+              </h2>
               <input
                 type="text"
                 className="absolute rounded-2xl w-[350px] py-3 mr-[370px] mt-[790px]"
               />
-              <h1 className="absolute text-3xl text-White font-semibold mr-[570px] mt-[880px]">
+              <h2 className="absolute text-3xl text-White font-semibold mr-[570px] mt-[880px]">
                 Deskripsi
-              </h1>
+              </h2>
               <input
                 type="text"
                 className="absolute rounded-2xl w-[350px] py-3 mr-[370px] mt-[940px]"
               />
-              <h1 className="absolute text-3xl text-White font-semibold mr-[570px] mt-[1030px]">
+              <h2 className="absolute text-3xl text-White font-semibold mr-[570px] mt-[1030px]">
                 Deadline
-              </h1>
+              </h2>
               <input
                 type="text"
                 className="absolute rounded-2xl w-[350px] py-3 mr-[370px] mt-[1090px]"

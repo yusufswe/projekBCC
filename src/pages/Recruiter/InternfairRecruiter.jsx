@@ -21,9 +21,9 @@ const InternfairRecruiter = () => {
         </div>
 
         <div className="w-full h-[550px] bg-BeauBlue">
-          <h1 className="absolute text-5xl font-bold mt-[50px] ml-[100px]">
+          <h3 className="absolute text-5xl font-bold mt-[50px] ml-[100px]">
             Events Today
-          </h1>
+          </h3>
 
           <div className="absolute flex justify-center items-center mt-[150px] ml-[120px]">
             <Card/>
@@ -31,7 +31,7 @@ const InternfairRecruiter = () => {
         </div>
         <div className="w-full h-[606px] bg-JellybeanBlue">
           <div className="flex justify-center items-center">
-            <h1 className="absolute text-4xl font-bold text-White mt-[180px]">Perusahaan Pemberi Internship</h1>
+            <h3 className="absolute text-4xl font-bold text-White mt-[180px]">Perusahaan Pemberi Internship</h3>
           </div>
           <div className="flex justify-center items-center">
             <div className="absolute w-[1300px] h-[200px] bg-White rounded-2xl mt-[600px]">

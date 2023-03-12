@@ -6,15 +6,15 @@ const EndRegisterStudent = () => {
   return (
     <div>
       <div className="flex justify-center bg-TealBlue">
-        <h1 className="absolute text-White text-5xl font-bold mr-[1170px] mt-[400px]">
+        <h2 className="absolute text-White text-5xl font-bold mr-[1170px] mt-[400px]">
           Kami sangat 
-        </h1>
-        <h1 className="absolute text-White text-5xl font-bold mr-[1000px] mt-[470px]">
+        </h2>
+        <h2 className="absolute text-White text-5xl font-bold mr-[1000px] mt-[470px]">
           berterimakasih atas
-        </h1>
-        <h1 className="absolute text-White text-5xl font-bold mr-[1030px] mt-[540px]">
+        </h2>
+        <h2 className="absolute text-White text-5xl font-bold mr-[1030px] mt-[540px]">
           pendaftaran kamu
-        </h1>
+        </h2>
         <img src={background} alt="" className="rounded-r-[220px]" />
         <div className="w-full bg-TealBlue">
           

@@ -71,7 +71,8 @@ const DetailStudents = () => {
               <h2 className="absolute text-2xl font-bold text-White mt-[40px]">
                 Other Internships
               </h2>
-              <div className="absolute w-[307px] h-[176px] bg-BeauBlue rounded-2xl mt-[90px]">
+              <Link to="/studentdetails2"  onClick={() => window.scrollTo(0, 0)}>
+                <div className="-ml-[150px] absolute w-[307px] h-[176px] bg-BeauBlue rounded-2xl mt-[90px] cursor-pointer">
                 <img
                   src={foto2}
                   alt=""
@@ -96,6 +97,7 @@ const DetailStudents = () => {
                 <p className="font-semibold mt-[95px] ml-[45px]">Programming</p>
                 <p className="font-semibold mt-[10px] ml-[45px]">Jakarta</p>
               </div>
+              </Link>
             </div>
           </div>
         </div>

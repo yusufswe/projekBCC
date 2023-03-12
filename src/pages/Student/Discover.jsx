@@ -6,7 +6,7 @@ import role from "../../assets/student/role.png";
 import location from "../../assets/student/location.png";
 import searchlogo from "../../assets/student/search.png";
 import closelogo from "../../assets/student/close.png";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Discover = () => {
   return (
@@ -35,12 +35,12 @@ const Discover = () => {
                     alt=""
                     className="absolute mt-[30px] ml-[20px]"
                   />
-                  <h1 className="absolute text-xl font-bold mt-[30px] ml-[95px]">
+                  <h3 className="absolute text-xl font-bold mt-[30px] ml-[95px]">
                     Front-End
-                  </h1>
-                  <h1 className="absolute text-md mt-[60px] ml-[95px]">
+                  </h3>
+                  <h3 className="absolute text-md mt-[60px] ml-[95px]">
                     Gojek
-                  </h1>
+                  </h3>
                   <img
                     src={role}
                     alt=""
@@ -57,18 +57,19 @@ const Discover = () => {
                   <p className="font-semibold mt-[10px] ml-[45px]">Malang</p>
                 </div>
               </Link>
-              <div className="absolute w-[307px] h-[176px] bg-BeauBlue rounded-2xl mt-[130px] ml-[390px]">
+              <Link to="/interndetails2"  onClick={() => window.scrollTo(0, 0)}>
+              <div className="absolute w-[307px] h-[176px] bg-BeauBlue rounded-2xl mt-[130px] ml-[390px] ">
                 <img
                   src={logo2}
                   alt=""
                   className="absolute mt-[30px] ml-[20px]"
                 />
-                <h1 className="absolute text-xl font-bold mt-[30px] ml-[95px]">
-                  Back-End
-                </h1>
-                <h1 className="absolute text-md mt-[60px] ml-[95px]">
+                <h3 className="absolute text-xl font-bold mt-[30px] ml-[95px]">
+                  Front end
+                </h3>
+                <h3 className="absolute text-md mt-[60px] ml-[95px]">
                   Marshall
-                </h1>
+                </h3>
                 <img
                   src={role}
                   alt=""
@@ -82,14 +83,15 @@ const Discover = () => {
                 <p className="font-semibold mt-[95px] ml-[45px]">Programming</p>
                 <p className="font-semibold mt-[10px] ml-[45px]">Jakarta</p>
               </div>
+              </Link>
             </div>
             <div className="absolute w-[328px] h-[1049px] bg-YankeesBlue ml-[900px] rounded-3xl">
-              <h1 className="absolute text-White font-bold font-sans text-4xl mt-[40px] ml-[45px]">
+              <h3 className="absolute text-White font-bold font-sans text-4xl mt-[40px] ml-[45px]">
                 Filter
-              </h1>
-              <h1 className="absolute text-White font-bold font-sans text-xl mt-[110px] ml-[40px]">
+              </h3>
+              <h3 className="absolute text-White font-bold font-sans text-xl mt-[110px] ml-[40px]">
                 Tampilkan berdasarkan
-              </h1>
+              </h3>
               <ul className="flex mt-[170px] ">
                 <li>
                   <button className="bg-BeauBlue rounded-2xl p-2 mx-3 ml-[40px] font-bold hover:scale-105 duration-400">

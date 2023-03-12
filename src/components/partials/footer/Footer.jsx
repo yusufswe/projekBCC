@@ -11,7 +11,7 @@ const Footer = () => {
         <div>
           <h6 className="text-White ml-[140px] text-2xl font-bold">Students</h6>
           <ul>
-            <Link to="/"><li className="py-2 text-sm text-White ml-[140px]"  onClick={() => window.scrollTo(0, 0)}>Discover</li></Link>
+            <Link to="/discover"><li className="py-2 text-sm text-White ml-[140px]"  onClick={() => window.scrollTo(0, 0)}>Discover</li></Link>
             <Link to="/insight"><li className="py-2 text-sm text-White ml-[140px]"  onClick={() => window.scrollTo(0, 0)}>Insight</li></Link>
             <Link to="/internfair"><li className="py-2 text-sm text-White ml-[140px]"  onClick={() => window.scrollTo(0, 0)}>Internfair</li></Link>
           </ul>
@@ -19,7 +19,7 @@ const Footer = () => {
         <div>
         <h6 className="text-White text-2xl font-bold ml-[1px]">Recruiters</h6>
           <ul>
-            <Link to="/homerecruiter"><li className="py-2 text-sm text-White" onClick={() => window.scrollTo(0, 0)}>Talents</li></Link>
+            <Link to="/talent"><li className="py-2 text-sm text-White" onClick={() => window.scrollTo(0, 0)}>Talents</li></Link>
             <Link to="/insightrecruiter"><li className="py-2 text-sm text-White" onClick={() => window.scrollTo(0, 0)}>Insight</li></Link>
             <Link to="/post"><li className="py-2 text-sm text-White"  onClick={() => window.scrollTo(0, 0)}>Post</li></Link>
             <Link to="/internfairrecruiter"><li className="py-2 text-sm text-White"  onClick={() => window.scrollTo(0, 0)}>Internfair</li></Link>

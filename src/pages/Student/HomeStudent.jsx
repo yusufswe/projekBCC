@@ -22,21 +22,21 @@ const HomeStudent = () => {
         <div>
           <img src={jumbotron} className="w-full overflow-x-hidden" alt="jumbotron" />
           <div className="flex items-center justify-center overflow-x-hidden">
-            <h1 className="absolute text-5xl font-bold text-White -mt-[1100px]">
+            <h2 className="absolute text-5xl font-bold text-White -mt-[1100px]">
               Raih internship impianmu
-            </h1>
-            <h1 className="absolute text-5xl font-bold text-White -mt-[900px]">
+            </h2>
+            <h2 className="absolute text-5xl font-bold text-White -mt-[900px]">
               bersama findIn
-            </h1>
+            </h2>
           </div>
         </div>
 
         <img src={panah} className="absolute mt-[360px] ml-[380px] w-[450px]" />
 
         <div className="w-full h-[2000px] bg-white">
-          <h1 className="text-5xl font-bold mt-[130px] ml-[110px]">
+          <h3 className="text-5xl font-bold mt-[130px] ml-[110px]">
             Cari Lowongan
-          </h1>
+          </h3>
           <p className="absolute text-4xl mt-[70px] ml-[900px]">
             Banyak lowongan yang bisa kamu
           </p>
@@ -46,7 +46,7 @@ const HomeStudent = () => {
           <div>
             <img src={carilowongan} className="absolute ml-[150px] w-[250px]" />
           </div>
-          <h1 className="text-5xl font-bold mt-[400px] ml-[1050px]">Apply</h1>
+          <h3 className="text-5xl font-bold mt-[400px] ml-[1050px]">Apply</h3>
           <p className="absolute text-3xl mt-[130px] ml-[180px]">
             Apply sebanyak mungkin
           </p>
@@ -61,7 +61,7 @@ const HomeStudent = () => {
             src={arrow2}
             className="absolute mt-[270px] ml-[580px] w-[450px]"
           />
-          <h1 className="text-5xl font-bold mt-[480px] ml-[180px]">Diterima</h1>
+          <h3 className="text-5xl font-bold mt-[480px] ml-[180px]">Diterima</h3>
           <p className="absolute text-3xl mt-[100px] ml-[900px]">
             Setelah apply-an kamu di review
           </p>
@@ -79,9 +79,9 @@ const HomeStudent = () => {
             src={panah}
             className="absolute ml-[480px] mt-[250px] w-[450px]"
           />
-          <h1 className="text-5xl font-bold mt-[400px] ml-[900px]">
+          <h3 className="text-5xl font-bold mt-[400px] ml-[900px]">
             Follow up
-          </h1>
+          </h3>
           <p className="absolute text-3xl mt-[120px] ml-[180px]">
             Pantengin terus info dari rekruiter untuk
           </p>
@@ -95,12 +95,13 @@ const HomeStudent = () => {
         </div>
 
         <div className="w-full h-[400px] bg-DarkSkyBlue flex justify-center items-center">
-          <h1 className="absolute text-5xl font-bold text-White">
+          <h3 className="absolute text-5xl font-bold text-White">
             Kirim CV mu sekarang juga
-          </h1>
-          <button className="absolute bg-Zomp rounded-2xl text-White font-bold py-3 px-5 hover:scale-105 duration-400 mt-[150px]">
+          </h3>
+          <Link to="/discover" onClick={() => window.scrollTo(0, 0)}><button className="absolute bg-Zomp rounded-2xl text-White font-bold py-3 px-5 hover:scale-105 duration-400 mt-[90px] -ml-[90px]">
             Apply now
           </button>
+          </Link>
         </div>
 
         <div className="w-full h-[1241px] bg-SteelBlue flex-col relative">
@@ -161,27 +162,28 @@ const HomeStudent = () => {
           <p className="absolute z-40 mt-[893px] ml-[1220px]">2022 / 2023</p>
 
           <div className="flex justify-center">
-          <button className="absolute font-bold text-2xl bg-Zomp rounded-2xl text-Black py-2 px-3 hover:scale-105 duration-300 mt-[1110px] ">
+          <Link to="/discover" onClick={() => window.scrollTo(0, 0)}><button className="absolute font-bold text-2xl bg-Zomp rounded-2xl text-Black py-2 px-3 hover:scale-105 duration-300 mt-[1110px] ">
             Join us Now
           </button>
+          </Link>
           </div>
         </div>
         <div className="w-full h-[1131px] bg-PoliceBlue">
-          <h1 className="absolute text-White text-5xl font-bold mt-[100px] ml-[188px]">
+          <h3 className="absolute text-White text-5xl font-bold mt-[100px] ml-[188px]">
             Dapatkan tips rahasia dari
-          </h1>
-          <h1 className="absolute text-White text-5xl font-bold mt-[188px] ml-[430px]">
+          </h3>
+          <h3 className="absolute text-White text-5xl font-bold mt-[188px] ml-[430px]">
             artikel yang ada di Insights.
-          </h1>
+          </h3>
           <div className="absolute w-[362px] h-[512px] bg-DarkSkyBlue rounded-2xl mt-[400px] ml-[50px]">
             <img
               src={fotoartikel}
               alt=""
               className="absolute mt-[30px] ml-[40px]"
             />
-            <h1 className="absolute text-Black text-2xl font-bold mt-[260px] ml-[39px]">
+            <h3 className="absolute text-Black text-2xl font-bold mt-[260px] ml-[39px]">
               The Benefits of Interning
-            </h1>
+            </h3>
             <p className="absolute text-Black text-xl font-semibold ml-[39px] mt-[330px]">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
               laudantium distinctio culpa id ea exercitationem eaque. Omnis
@@ -194,9 +196,9 @@ const HomeStudent = () => {
               alt=""
               className="absolute mt-[30px] ml-[40px]"
             />
-            <h1 className="absolute text-Black text-2xl font-bold mt-[250px] ml-[39px]">
+            <h3 className="absolute text-Black text-2xl font-bold mt-[250px] ml-[39px]">
               The Do's and Don'ts of Interning
-            </h1>
+            </h3>
             <p className="absolute text-Black text-xl font-semibold ml-[39px] mt-[330px]">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
               laudantium distinctio culpa id ea exercitationem eaque. Omnis
@@ -209,9 +211,9 @@ const HomeStudent = () => {
               alt=""
               className="absolute mt-[30px] ml-[40px]"
             />
-            <h1 className="absolute text-Black text-2xl font-bold mt-[250px] ml-[39px]">
+            <h3 className="absolute text-Black text-2xl font-bold mt-[250px] ml-[39px]">
               Gabut dirumah? Lakuin 10 hal ini
-            </h1>
+            </h3>
             <p className="absolute text-Black text-xl font-semibold ml-[39px] mt-[330px]">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
               laudantium distinctio culpa id ea exercitationem eaque. Omnis
@@ -226,15 +228,15 @@ const HomeStudent = () => {
           </div>
         </div>
         <div className="w-full h-[918px]">
-          <h1 className="absolute text-White text-6xl font-bold mt-[280px] ml-[100px]">
+          <h3 className="absolute text-White text-6xl font-bold mt-[280px] ml-[100px]">
             Live sharing session
-          </h1>
-          <h1 className="absolute text-White text-6xl font-bold mt-[350px] ml-[100px]">
+          </h3>
+          <h3 className="absolute text-White text-6xl font-bold mt-[350px] ml-[100px]">
             bersama para experts
-          </h1>
-          <h1 className="absolute text-White text-6xl font-bold mt-[420px] ml-[100px]">
+          </h3>
+          <h3 className="absolute text-White text-6xl font-bold mt-[420px] ml-[100px]">
             pada internfair
-          </h1>
+          </h3>
           <Link to="/internfair" onClick={() => window.scrollTo(0, 0)}><button className="absolute font-bold text-2xl bg-transparent rounded-2xl border-2 border-White text-White py-2 px-3 hover:scale-105 duration-300 mt-[530px] ml-[100px]">
             See more
           </button>

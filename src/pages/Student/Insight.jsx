@@ -34,9 +34,9 @@ const Insight = () => {
               Career life balance
             </p>
           </div>
-          <h1 className="absolute text-Black font-bold text-5xl mt-[800px] ml-[130px] ">
+          <h3 className="absolute text-Black font-bold text-5xl mt-[800px] ml-[130px] ">
             Trending Hari ini
-          </h1>
+          </h3>
           <div className="flex justify-center items-center">
             <div className="absolute bg-TealBlue w-[1276px] h-[284px]  mt-[2100px] rounded-3xl">
               <p className="absolute text-White text-xl font-semibold ml-[500px] mt-[20px]">
@@ -83,9 +83,9 @@ const Insight = () => {
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <h1 className="absolute text-Black font-bold text-5xl mt-[3600px] -ml-[950px] ">
+            <h3 className="absolute text-Black font-bold text-5xl mt-[3600px] -ml-[950px] ">
               Viral Banget
-            </h1>
+            </h3>
             <div className="absolute bg-TealBlue w-[1276px] h-[284px]  mt-[4100px] rounded-3xl">
               <p className="absolute text-White text-xl font-semibold ml-[500px] mt-[20px]">
                 The Dark Side of Internships

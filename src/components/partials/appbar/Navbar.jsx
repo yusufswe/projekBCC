@@ -5,9 +5,9 @@ const Navbar = () => {
   return (
     <div>
       <div className="flex justify-between items-center p-0 right-0 left-0 h-[80px] bg-SteelBlue px-4 font-semibold fixed z-50">
-        <h2 className="w-full text-3xl font-bold cursor-pointer ml-5">
+        <h1 className="w-full text-3xl font-bold cursor-pointer ml-5">
           <Link to = "/" className="text-White"  onClick={() => window.scrollTo(0, 0)}>findIn</Link>
-        </h2>
+        </h1>
         <ul className="md:flex mt-3">
           <li className="p-3 cursor-pointer">
             <Link to = "/" className="text-White"  onClick={() => window.scrollTo(0, 0)}>Home</Link>

@@ -11,7 +11,7 @@ import logo2 from "../../../assets/student/marshallinternfair.png";
 import role from "../../../assets/student/role.png";
 import location from "../../../assets/student/location.png";
 
-const InternDetails = () => {
+const InternDetails2 = () => {
   const { id } = useParams();
   return (
     <div>
@@ -22,7 +22,7 @@ const InternDetails = () => {
         <div className="w-full h-[1200px] bg-BeauBlue">
           <div className="absolute w-[741px] h-[1015px] bg-PaleCerulean rounded-3xl mt-[50px] ml-[130px]">
             <img
-              src={gojek}
+              src={logo2}
               alt=""
               className="absolute w-[90px] ml-[60px] mt-[50px]"
             />
@@ -50,7 +50,7 @@ const InternDetails = () => {
               Front end
             </h3>
             <h3 className="absolute  text-md font-sans text-xl ml-[205px] mt-[110px]">
-              Gojek
+              Marshall
             </h3>
             <h3 className="absolute font-sans ml-[90px] mt-[190px]">Malang</h3>
             <h3 className="absolute font-sans ml-[90px] mt-[238px]">
@@ -73,7 +73,7 @@ const InternDetails = () => {
                 Programming
               </h3>
             </div>
-            <h3 className="absolute font-sans font-semibold text-xl mt-[525px] ml-[40px]">Gojek Frontend Job Description</h3>
+            <h3 className="absolute font-sans font-semibold text-xl mt-[525px] ml-[40px]">Marshall Front end Job Description</h3>
             <h3 className="absolute font-sans mt-[580px] ml-[40px]">Job Description :</h3>
             <ol className="absolute flex-row mt-[630px] ml-[40px]">
                 <li className=" ">1. Bertanggung jawab atas semua hal yang berhubungan UI/UX Shoppee</li>
@@ -91,12 +91,13 @@ const InternDetails = () => {
             <button className="absolute bg-Zomp font-bold text-xl rounded-xl px-3 py-1 ml-[550px] mt-[80px] hover:scale-105 duration-400">
               Apply now
             </button>
-            <div className="flex justify-center absolute w-[328px] h-[749px] bg-YankeesBlue ml-[900px] rounded-3xl cursor-pointer">
+
+            <div className="flex justify-center absolute w-[328px] h-[749px] bg-YankeesBlue ml-[900px] rounded-3xl">
                 <h3 className="absolute text-2xl font-bold text-White mt-[40px]">Other Internships</h3>
-                <Link to="/interndetails2"  onClick={() => window.scrollTo(0, 0)}>
-                <div className=" -ml-[150px] absolute w-[307px] h-[176px] bg-BeauBlue rounded-2xl mt-[90px]">
+                <Link to="/interndetails"  onClick={() => window.scrollTo(0, 0)}>
+                <div className="-ml-[150px] absolute w-[307px] h-[176px] bg-BeauBlue rounded-2xl mt-[90px]">
                 <img
-                  src={logo2}
+                  src={gojek}
                   alt=""
                   className="absolute mt-[30px] ml-[20px]"
                 />
@@ -104,7 +105,7 @@ const InternDetails = () => {
                   Front end
                 </h1>
                 <h1 className="absolute text-md mt-[60px] ml-[95px]">
-                  Marshall
+                  Gojek
                 </h1>
                 <img
                   src={role}
@@ -127,4 +128,4 @@ const InternDetails = () => {
     </div>
   );
 };
-export default InternDetails;
+export default InternDetails2;

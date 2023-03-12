@@ -18,18 +18,18 @@ const PilihanRegistrasi = () => {
         <div className="absolute w-[350px] h-[350px] border-2 border-White bg-transparent rounded-3xl flex justify-center items-center mt-[500px] ml-[200px]">
           <nav>
             <NavLink to="/studentregister" onClick={() => window.scrollTo(0,0)}>
-              <h1 className="absolute text-6xl font-bold text-White">
+              <h3 className="absolute text-6xl font-bold text-White">
                 <span className="absolute -ml-[100px] -mt-[25px] cursor-pointer">Student</span>
-              </h1>
+              </h3>
             </NavLink>
           </nav>
         </div>
         <div className="absolute w-[350px] h-[350px] border-2 border-White bg-transparent rounded-3xl flex justify-center items-center mt-[500px] ml-[1000px]">
           <nav>
             <NavLink to="/recruiterregister" onClick={() => window.scrollTo(0,0)}>
-              <h1 className="absolute text-6xl font-bold text-White">
+              <h3 className="absolute text-6xl font-bold text-White">
                 <span className="absolute -ml-[100px] -mt-[25px] cursor-pointer">Recruiter</span>
-              </h1>
+              </h3>
             </NavLink>
           </nav>
         </div>

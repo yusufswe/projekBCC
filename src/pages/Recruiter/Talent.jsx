@@ -52,6 +52,7 @@ const Talent   = () => {
                   <p className="font-semibold mt-[10px] text-White ml-[45px]">Malang</p>
                 </div>
               </Link>
+              <Link to="/talentdetails2">
               <div className="absolute w-[307px] h-[176px] bg-BlueDark rounded-2xl mt-[130px] ml-[390px]">
                 <img
                   src={picture2}
@@ -77,6 +78,7 @@ const Talent   = () => {
                 <p className="font-semibold mt-[95px] ml-[45px] text-White ">Programming</p>
                 <p className="font-semibold mt-[10px] ml-[45px] text-White ">Jakarta</p>
               </div>
+              </Link>
             </div>
             <div className="absolute w-[328px] h-[1049px] bg-YankeesBlue ml-[900px] rounded-3xl">
               <h1 className="absolute text-White font-bold font-sans text-4xl mt-[40px] ml-[45px]">

@@ -23,9 +23,9 @@ const HomeRecruiter = () => {
         <div>
           <img src={jumborecruiter} alt="" className="w-full" />
           <div className="flex justify-center items-center">
-            <h1 className="absolute text-5xl font-bold text-White -mt-[1100px]">
+            <h2 className="absolute text-5xl font-bold text-White -mt-[1100px]">
               Terhubung dengan mahasiswa manapun
-            </h1>
+            </h2>
             <h1 className="absolute text-5xl font-bold text-White -mt-[900px]">
               di kampus mana pun
             </h1>
@@ -37,9 +37,9 @@ const HomeRecruiter = () => {
               <img src={pic3} alt="" className="absolute ml-[1100px] mt-[340px] z-20" />
               <img src={pic4} alt="" className="absolute ml-[900px] mt-[440px] z-30" />
               
-              <h1 className="absolute text-5xl font-semibold text-Black mt-[70px] ml-[150px]">
+              <h2 className="absolute text-5xl font-semibold text-Black mt-[70px] ml-[150px]">
                 Temukan talent mahasiswa
-              </h1>
+              </h2>
               <p className="absolute text-5xl font-semibold text-Black mt-[120px] ml-[150px]">
                 yang anda butuhkan
               </p>
@@ -49,9 +49,9 @@ const HomeRecruiter = () => {
             </div>
 
             <div className="flex justify-center">
-              <h1 className="absolute text-Black font-bold text-3xl mt-[700px]">
+              <h2 className="absolute text-Black font-bold text-3xl mt-[700px]">
                 Jangkau jaringan mahasiswa berbakat yang beragam
-              </h1>
+              </h2>
             </div>
             <div>
               <div className="absolute w-[350px] h-[350px] rounded-3xl bg-ChineseBlue mt-[800px] ml-[70px] flex justify-center items-center">
@@ -70,17 +70,18 @@ const HomeRecruiter = () => {
                 </p>
               </div>
               <div className="flex justify-center">
-                <button className="absolute text-Black font-bold text-2xl bg-Zomp mt-[1250px] rounded-2xl px-7 py-1 hover:scale-105 duration-400">
+              <Link to="/talent" onClick={() => window.scrollTo(0, 0)}><button className="absolute text-Black font-bold text-2xl bg-Zomp mt-[1250px] -ml-[100px] rounded-2xl px-7 py-1 hover:scale-105 duration-400">
                   Find talents
                 </button>
+                </Link>
               </div>
             </div>
           </div>
           <div className="w-full h-[606px] bg-JellybeanBlue">
             <div className="flex justify-center items-center">
-              <h1 className="absolute text-4xl font-bold text-White mt-[180px]">
+              <h2 className="absolute text-4xl font-bold text-White mt-[180px]">
                 Dipercaya oleh beberapa startup dan perusahaan di Indonesia
-              </h1>
+              </h2>
             </div>
             <div className="flex justify-center items-center">
               <div className="absolute w-[1300px] h-[200px] bg-White rounded-2xl mt-[600px]">
@@ -109,21 +110,21 @@ const HomeRecruiter = () => {
           </div>
           <div>
             <div className="w-full h-[1131px] bg-PoliceBlue">
-              <h1 className="absolute text-White text-5xl font-bold mt-[100px] ml-[188px]">
+              <h3 className="absolute text-White text-5xl font-bold mt-[100px] ml-[188px]">
                 Dapatkan tips rahasia dari
-              </h1>
-              <h1 className="absolute text-White text-5xl font-bold mt-[188px] ml-[430px]">
+              </h3>
+              <h3 className="absolute text-White text-5xl font-bold mt-[188px] ml-[430px]">
                 artikel yang ada di Insights.
-              </h1>
+              </h3>
               <div className="absolute w-[362px] h-[512px] bg-DarkSkyBlue rounded-2xl mt-[400px] ml-[50px]">
                 <img
                   src={foto1}
                   alt=""
                   className="absolute mt-[30px] ml-[30px] w-[300px] rounded-xl"
                 />
-                <h1 className="absolute text-Black text-2xl font-bold mt-[260px] ml-[39px]">
+                <h3 className="absolute text-Black text-2xl font-bold mt-[260px] ml-[39px]">
                   Apa itu rekruiter
-                </h1>
+                </h3>
                 <p className="absolute text-Black text-xl font-semibold ml-[39px] mt-[330px]">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Expedita laudantium distinctio culpa id ea exercitationem
@@ -136,9 +137,9 @@ const HomeRecruiter = () => {
                   alt=""
                   className="absolute mt-[30px] ml-[20px] rounded-xl"
                 />
-                <h1 className="absolute text-Black text-2xl font-bold mt-[250px] ml-[29px]">
+                <h3 className="absolute text-Black text-2xl font-bold mt-[250px] ml-[29px]">
                   Skill - skill seorang rekruiter
-                </h1>
+                </h3>
                 <p className="absolute text-Black text-xl font-semibold ml-[39px] mt-[330px]">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Expedita laudantium distinctio culpa id ea exercitationem
@@ -151,9 +152,9 @@ const HomeRecruiter = () => {
                   alt=""
                   className="absolute mt-[30px] ml-[40px]"
                 />
-                <h1 className="absolute text-Black text-2xl font-bold mt-[250px] ml-[39px]">
+                <h3 className="absolute text-Black text-2xl font-bold mt-[250px] ml-[39px]">
                   Gabut dirumah? Lakuin 10 hal ini
-                </h1>
+                </h3>
                 <p className="absolute text-Black text-xl font-semibold ml-[39px] mt-[330px]">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Expedita laudantium distinctio culpa id ea exercitationem

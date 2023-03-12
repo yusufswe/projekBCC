@@ -22,8 +22,11 @@ import InternDetails from './pages/Student/Discover/InternDetails';
 import DetailStudents from './pages/Student/Discover/DetailStudents';
 import Students from './pages/Student/Discover/Students';
 import TalentDetails from './pages/Recruiter/Talents/TalentDetails';
-
-
+import DetailStudents2 from './pages/Student/Discover/DetailStudents2';
+import InternDetails2 from './pages/Student/Discover/InternDetails2';
+import TalentDetails2 from './pages/Recruiter/Talents/TalentDetails2';
+import InsightDetails from './pages/Student/InsightDetails';
+import ChangePassword from './pages/Login/ChangePassword';
 
 function App() {
   return (
@@ -35,6 +38,7 @@ function App() {
            <Route path='/login' element={<Login/>}/>
            <Route path='/internfair' element={<Internfair/>}/>
            <Route path='/insight' element={<Insight/>}/>
+           <Route path='/insightdetails' element={<InsightDetails/>}/>
            <Route path='/insightrecruiter' element={<InsightRecruiter/>}/>
            <Route path='/internfairrecruiter' element={<InternfairRecruiter/>}/>
            <Route path='/post' element={<Post/>}/>
@@ -42,6 +46,7 @@ function App() {
            <Route path='/studentregister' element={<FormRegisterStudent/>}/>
            <Route path='/recruiterregister' element={<FormRegisterRecruiter/>}/>
            <Route path='/forgotpassword' element={<ForgotPassword/>}/>
+           <Route path='/changepassword' element={<ChangePassword/>}/>
            <Route path='/studentendregister' element={<EndRegisterStudent/>}/>
            <Route path='/recruiterendregister' element={<EndRegisterRecruiter/>}/>
            <Route path='/formverifmahasiswa' element={<FormVerif/>}/>
@@ -49,11 +54,12 @@ function App() {
            <Route path='/discover' element={<Discover/>}/>
            <Route path='/talent' element={<Talent/>}/>
            <Route path='/talentdetails' element={<TalentDetails/>}/>
+           <Route path='/talentdetails2' element={<TalentDetails2/>}/>
            <Route path='/interndetails' element={<InternDetails/>}/>
+           <Route path='/interndetails2' element={<InternDetails2/>}/>
            <Route path='/liststudent' element={<Students/>}/>
            <Route path='/studentdetails' element={<DetailStudents/>}/>
-
-
+           <Route path='/studentdetails2' element={<DetailStudents2/>}/>
          </Routes>
        </BrowserRouter>
      </div>

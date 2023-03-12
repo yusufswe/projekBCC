@@ -23,7 +23,7 @@ const TalentDetails = () => {
         <div className="w-full h-[1200px] bg-BeauBlue">
           <div className="absolute w-[741px] h-[1015px] bg-BlueDark rounded-3xl mt-[50px] ml-[130px]">
             <img
-              src={foto}
+              src={foto2}
               alt=""
               className="absolute w-[100px] ml-[60px] mt-[50px] rounded-full"
               />
@@ -38,11 +38,11 @@ const TalentDetails = () => {
               className="absolute ml-[40px] mt-[340px]"
               />
             <h2 className="absolute mt-[200px] ml-[40px] text-White">
-              Suka banget sama ngoding, bisa semua bahasa ngoding,
+              Apa itu tidur?
             </h2>
-            <h2 className="absolute mt-[230px] ml-[40px] text-White">eat sleep code 24/7</h2>
+            <h2 className="absolute mt-[230px] ml-[40px] text-White">no coding no life</h2>
             <h2 className="absolute text-4xl text-White font-sans font-bold ml-[200px] mt-[60px]">
-              Muhammad Yusuf
+              Fikri Haikal
             </h2>
             <h2 className="absolute  text-md text-White font-sans text-xl ml-[205px] mt-[110px]">
               Universitas Brawijaya
@@ -64,7 +64,7 @@ const TalentDetails = () => {
               </h3>
             </div>
             <div>
-                <h3 className="absolute font-bold text-xl mt-[540px] ml-[40px] text-White">Muhammad Yusuf Posts</h3>
+                <h3 className="absolute font-bold text-xl mt-[540px] ml-[40px] text-White">Fikri Haikal Posts</h3>
                 <img src={poststudent} alt="" className="absolute mt-[580px] ml-[30px] rounded-2xl"/>
                 <h3 className="absolute mt-[790px] ml-[40px] text-xl font-bold text-White">Aku bisa bikin tampilan gojek pake tailwind!!!</h3>
             </div>
@@ -72,18 +72,18 @@ const TalentDetails = () => {
               <h2 className="absolute text-2xl font-bold text-White mt-[40px]">
                 Other Students
               </h2>
-              <Link to="/talentdetails2"  onClick={() => window.scrollTo(0, 0)}>
+              <Link to="/talentdetails" onClick={() => window.scrollTo(0, 0)}>
               <div className="-ml-[150px] absolute w-[307px] h-[176px] bg-BlueDark rounded-2xl mt-[90px] cursor-pointer">
                 <img
-                  src={foto2}
+                  src={foto}
                   alt=""
                   className="absolute mt-[30px] ml-[20px] rounded-full w-[55px]"
                   />
                 <h3 className="absolute text-xl font-bold mt-[30px] ml-[95px] text-White">
-                  Fikri Haikal
+                  Muhammad Yusuf
                 </h3>
                 <h3 className="absolute text-md mt-[60px] ml-[95px] text-White">
-                  Backend
+                  Front end
                 </h3>
                 <img
                   src={role}

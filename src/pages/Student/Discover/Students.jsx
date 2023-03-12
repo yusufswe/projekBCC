@@ -36,12 +36,12 @@ const Students   = () => {
                     alt=""
                     className="absolute mt-[30px] ml-[20px] rounded-full w-[55px]"
                   />
-                  <h1 className="absolute text-xl font-bold mt-[30px] ml-[95px]">
+                  <h3 className="absolute text-xl font-bold mt-[30px] ml-[95px]">
                     Muhammad Yusuf
-                  </h1>
-                  <h1 className="absolute text-md mt-[60px] ml-[95px]">
+                  </h3>
+                  <h3 className="absolute text-md mt-[60px] ml-[95px]">
                     Universitas Brawijaya
-                  </h1>
+                  </h3>
                   <img
                     src={role}
                     alt=""
@@ -58,18 +58,20 @@ const Students   = () => {
                   <p className="font-semibold mt-[10px] ml-[45px]">Malang</p>
                 </div>
               </Link>
-              <div className="absolute w-[307px] h-[176px] bg-BeauBlue rounded-2xl mt-[130px] ml-[390px]">
+              
+              
+              <Link to="/studentdetails2"><div className="absolute w-[307px] h-[176px] bg-BeauBlue rounded-2xl mt-[130px] ml-[390px]">
                 <img
                   src={picture2}
                   alt=""
                   className="absolute mt-[30px] ml-[20px] rounded-full w-[55px]"
                 />
-                <h1 className="absolute text-xl font-bold mt-[30px] ml-[95px]">
+                <h3 className="absolute text-xl font-bold mt-[30px] ml-[95px]">
                   Fikri Haikal
-                </h1>
-                <h1 className="absolute text-md mt-[60px] ml-[95px]">
+                </h3>
+                <h3 className="absolute text-md mt-[60px] ml-[95px]">
                   Universitas Brawijaya
-                </h1>
+                </h3>
                 <img
                   src={role}
                   alt=""
@@ -83,11 +85,12 @@ const Students   = () => {
                 <p className="font-semibold mt-[95px] ml-[45px]">Programming</p>
                 <p className="font-semibold mt-[10px] ml-[45px]">Jakarta</p>
               </div>
+              </Link>
             </div>
             <div className="absolute w-[328px] h-[1049px] bg-YankeesBlue ml-[900px] rounded-3xl">
-              <h1 className="absolute text-White font-bold font-sans text-4xl mt-[40px] ml-[45px]">
+              <h3 className="absolute text-White font-bold font-sans text-4xl mt-[40px] ml-[45px]">
                 Filter
-              </h1>
+              </h3>
               <h1 className="absolute text-White font-bold font-sans text-xl mt-[110px] ml-[40px]">
                 Tampilkan berdasarkan
               </h1>
