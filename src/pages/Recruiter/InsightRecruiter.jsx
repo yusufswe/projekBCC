@@ -4,6 +4,7 @@ import Trending from "../../assets/trending.png";
 import TrendingDua from "../../assets/trendingdua.png";
 import Viral from "../../assets/viral.png";
 import ViralDua from "../../assets/viraldua.png";
+import { Link } from "react-router-dom";
 
 const InsightRecruiter = () => {
   return (
@@ -36,7 +37,8 @@ const InsightRecruiter = () => {
             Trending Hari ini
           </h2>
           <div className="flex justify-center items-center">
-            <div className="absolute bg-TealBlue w-[1276px] h-[284px]  mt-[2100px] rounded-3xl">
+            <Link to="/insightdetailsrecruiter"  onClick={() => window.scrollTo(0, 0)}>
+              <div className="absolute bg-TealBlue w-[1276px] h-[284px] mt-[890px] -ml-[630px] rounded-3xl cursor-pointer">
               <p className="absolute text-White text-xl font-semibold ml-[500px] mt-[20px]">
                 Apa itu Recruiter
               </p>
@@ -50,6 +52,7 @@ const InsightRecruiter = () => {
               </p>
               <img src={Trending} alt="" />
             </div>
+            </Link>
           </div>
           <div className="flex">
             <div className="absolute w-[330px] h-[330px] bg-TealBlue rounded-2xl mt-[1300px] ml-[130px]">
@@ -61,7 +64,7 @@ const InsightRecruiter = () => {
                 Post October, 2021
               </p>
             </div>
-            <div className="absolute w-[330px] h-[330px] bg-TealBlue rounded-2xl mt-[1300px] ml-[630px]">
+            <Link to="/insightdetailsrecruiter2"  onClick={() => window.scrollTo(0, 0)}><div className="absolute w-[330px] h-[330px] bg-TealBlue rounded-2xl mt-[1300px] ml-[630px] cursor-pointer">
               <img src={TrendingDua} alt="" />
               <p className="absolute text-White font-semibold text-xl mt-[20px] ml-[30px]">
                 Skills-skills seorang Recruiter
@@ -70,6 +73,7 @@ const InsightRecruiter = () => {
                 Post October, 2021
               </p>
             </div>
+            </Link>
             <div className="absolute w-[330px] h-[330px] bg-TealBlue rounded-2xl mt-[1300px] ml-[1080px]">
               <img src={TrendingDua} alt="" />
               <p className="absolute text-White font-semibold text-xl mt-[20px] ml-[30px]">

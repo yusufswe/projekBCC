@@ -24,8 +24,11 @@ const NavbarRecruiter = () => {
           <li className="p-3 cursor-pointer">
             <Link to ="/internfairrecruiter" onClick={() => window.scrollTo(0, 0)} className="text-White">Internfair</Link>
           </li>
-          <li className="p-3 cursor-pointer">
-            <Link to ="/" onClick={() => window.scrollTo(0, 0)} className="text-White">Student</Link>
+          <li className="absolute -ml-[880px] -mt-[5px] text-xl p-3 cursor-pointer">
+            <Link to = "/" className="text-White"  onClick={() => window.scrollTo(0, 0)}>Students</Link>
+          </li>
+          <li className="absolute -ml-[770px] -mt-[5px] text-xl p-3 cursor-pointer border-b-2 border-transparent border-White">
+            <Link to = "/homerecruiter" className="text-White"  onClick={() => window.scrollTo(0, 0)}>Recruiters</Link>
           </li>
           <li className="p-3 cursor-pointer">
             <Link to ="/login" onClick={() => window.scrollTo(0, 0)}>

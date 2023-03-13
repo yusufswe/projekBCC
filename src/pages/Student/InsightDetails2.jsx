@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import pic from "../../assets/student/trendingstudent.png";
 import img3 from "../../assets/student/trendingstudent2.png";
 
-const InsightDetails = () => {
+const InsightDetails2 = () => {
   return (
     <div>
       <AppLayoutStudent>
@@ -14,12 +14,12 @@ const InsightDetails = () => {
         <div className="w-full h-[2200px] bg-BeauBlue">
           <div className="absolute w-[741px] h-[1015px] bg-transparent rounded-3xl mt-[50px] ml-[130px]">
             <img
-              src={pic}
+              src={img3}
               alt=""
               className="absolute w-full h-[365px] rounded-2xl"
             />
             <h1 className="absolute text-Black text-3xl font-sans font-bold mt-[410px] ml-[20px]">
-              The Benefits of Interning
+              The Do's and Don'ts of Interning
             </h1>
             <p className="absolute mt-[480px] ml-[20px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -48,26 +48,26 @@ const InsightDetails = () => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <Link to="/insightdetails2" onClick={() => window.scrollTo(0, 0)}>
-              <div className="flex justify-center absolute w-[328px] h-[749px] bg-YankeesBlue ml-[900px] rounded-3xl cursor-pointer">
-                <h2 className="absolute text-2xl text-White font-bold mt-[20px]">
-                  Related Articles
-                </h2>
-                <div className="absolute w-[280px] h-[263px] bg-TealBlue rounded-3xl mt-[80px]">
-                  <img src={img3} alt="" />
+            <div className="flex justify-center absolute w-[328px] h-[749px] bg-YankeesBlue ml-[900px] rounded-3xl cursor-pointer">
+              <h2 className="absolute text-2xl text-White font-bold mt-[20px]">
+                Related Articles
+              </h2>
+              <Link to="/insightdetails" onClick={() => window.scrollTo(0, 0)}>
+                <div className="absolute w-[280px] h-[263px] bg-TealBlue rounded-3xl mt-[80px] -ml-[140px]">
+                  <img src={pic} alt="" />
                   <h2 className="absolute text-White font-sans font-semibold ml-[18px] mt-[10px]">
-                    The Do's and Don'ts of Interning
+                    The Benefits of Interning
                   </h2>
                   <h2 className="absolute text-White font-sans font-semibold ml-[18px] mt-[55px]">
                     Post October, 2021
                   </h2>
                 </div>
-              </div>
-            </Link>
+              </Link>
+            </div>
           </div>
         </div>
       </AppLayoutStudent>
     </div>
   );
 };
-export default InsightDetails;
+export default InsightDetails2;

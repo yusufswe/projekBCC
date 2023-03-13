@@ -1,25 +1,25 @@
 import React from "react";
-import AppLayoutStudent from "../../components/partials/layout/layout/AppLayoutStudent";
 import { Link } from "react-router-dom";
-import pic from "../../assets/student/trendingstudent.png";
-import img3 from "../../assets/student/trendingstudent2.png";
+import Trending from "../../assets/trending.png";
+import TrendingDua from "../../assets/trendingdua.png";
+import AppLayoutRecruiter from "../../components/partials/layout/layout/AppLayoutRecruiter";
 
-const InsightDetails = () => {
+const InsightRecruiterDetails = () => {
   return (
     <div>
-      <AppLayoutStudent>
+        <AppLayoutRecruiter>
         <br />
         <br />
         <br />
         <div className="w-full h-[2200px] bg-BeauBlue">
           <div className="absolute w-[741px] h-[1015px] bg-transparent rounded-3xl mt-[50px] ml-[130px]">
             <img
-              src={pic}
+              src={Trending}
               alt=""
               className="absolute w-full h-[365px] rounded-2xl"
-            />
+              />
             <h1 className="absolute text-Black text-3xl font-sans font-bold mt-[410px] ml-[20px]">
-              The Benefits of Interning
+              Apa itu Recruiter
             </h1>
             <p className="absolute mt-[480px] ml-[20px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -48,15 +48,15 @@ const InsightDetails = () => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <Link to="/insightdetails2" onClick={() => window.scrollTo(0, 0)}>
+            <Link to="/insightdetailsrecruiter2" onClick={() => window.scrollTo(0, 0)}>
               <div className="flex justify-center absolute w-[328px] h-[749px] bg-YankeesBlue ml-[900px] rounded-3xl cursor-pointer">
                 <h2 className="absolute text-2xl text-White font-bold mt-[20px]">
                   Related Articles
                 </h2>
                 <div className="absolute w-[280px] h-[263px] bg-TealBlue rounded-3xl mt-[80px]">
-                  <img src={img3} alt="" />
+                  <img src={TrendingDua} alt="" />
                   <h2 className="absolute text-White font-sans font-semibold ml-[18px] mt-[10px]">
-                    The Do's and Don'ts of Interning
+                    Skills skills seorang recruiter
                   </h2>
                   <h2 className="absolute text-White font-sans font-semibold ml-[18px] mt-[55px]">
                     Post October, 2021
@@ -66,8 +66,8 @@ const InsightDetails = () => {
             </Link>
           </div>
         </div>
-      </AppLayoutStudent>
+      </AppLayoutRecruiter>
     </div>
   );
 };
-export default InsightDetails;
+export default InsightRecruiterDetails;

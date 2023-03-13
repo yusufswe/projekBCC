@@ -18,6 +18,12 @@ const DashboardRecruiter = () => {
       setShoWEditModal(!editModal);
     }
 
+    if (editModal) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
 
   return (
     <div>
@@ -26,7 +32,7 @@ const DashboardRecruiter = () => {
         <div className='w-full h-[1000px] bg-BeauBlue'>
             <h1 className='absolute font-sans font-bold text-3xl ml-[100px] mt-[70px]'>Dashboard Recruiter</h1>
             <Link to="/dashboardrecruiter">
-              <h3 className='absolute font-sans font-bold text-xl ml-[100px] mt-[170px] cursor-pointer border-b-2 border-transparentborder-White'>Lowongan Saya</h3></Link>
+              <h3 className='absolute font-sans font-bold text-xl ml-[100px] mt-[170px] cursor-pointer border-b-2 border-transparent border-Black'>Lowongan Saya</h3></Link>
             <Link to="/pelamar"><h3 className='absolute font-sans font-bold text-xl ml-[290px] mt-[170px] cursor-pointer'>Pelamar / Applier</h3></Link>
         <div className='absolute w-[551px] h-[319px] bg-BlueDark rounded-2xl mt-[250px] ml-[90px]'>
             <h3 className='absolute font-sans font-semibold text-White text-2xl mt-[30px] ml-[20px]'>Front End</h3>

@@ -10,7 +10,7 @@ const Dashboard = () => {
         <br /><br /><br />
         <div className='w-full h-[800px] bg-BeauBlue'>
             <h1 className='absolute font-sans font-bold text-3xl ml-[100px] mt-[70px]'>Dashboard Student</h1>
-            <Link to="/dashboard"><h3 className='absolute font-sans font-bold text-xl ml-[100px] mt-[170px] cursor-pointer'>Lamaran Saya</h3></Link>
+            <Link to="/dashboard"><h3 className='absolute font-sans font-bold text-xl ml-[100px] mt-[170px] cursor-pointer border-b-2 border-transparent border-Black'>Lamaran Saya</h3></Link>
             <Link to="/daftarterpilih"><h3 className='absolute font-sans font-bold text-xl ml-[260px] mt-[170px] cursor-pointer'>Masuk Daftar Terpilih</h3></Link>
         <div className='absolute w-[551px] h-[319px] bg-BlueDark rounded-2xl mt-[250px] ml-[90px]'>
             <h3 className='absolute font-sans font-semibold text-White text-2xl mt-[30px] ml-[20px]'>Front End</h3>

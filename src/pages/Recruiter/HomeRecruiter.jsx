@@ -14,7 +14,7 @@ import pic2 from "../../assets/recruiter/pic2.png";
 import pic3 from "../../assets/recruiter/pic3.png";
 import pic4 from "../../assets/recruiter/pic4.png";
 import { Link } from "react-router-dom";
-
+import arrow from "../../assets/recruiter/arrowAccordion.png";
 
 const HomeRecruiter = () => {
   return (
@@ -24,20 +24,65 @@ const HomeRecruiter = () => {
           <img src={groupRecruiter} alt="" className="w-full" />
           <div className="w-full h-[1400px] bg-BeauBlue">
             <div>
-              <img src={pic1} alt="" className="absolute ml-[900px] mt-[210px] z-10" />
-              <img src={pic2} alt="" className="absolute ml-[1100px] mt-[110px]" />
-              <img src={pic3} alt="" className="absolute ml-[1100px] mt-[340px] z-20" />
-              <img src={pic4} alt="" className="absolute ml-[900px] mt-[440px] z-30" />
-              
-              <h2 className="absolute text-5xl font-semibold text-Black mt-[70px] ml-[150px]">
+              <img
+                src={pic1}
+                alt=""
+                className="absolute ml-[900px] mt-[210px] z-10"
+              />
+              <img
+                src={pic2}
+                alt=""
+                className="absolute ml-[1100px] mt-[110px]"
+              />
+              <img
+                src={pic3}
+                alt=""
+                className="absolute ml-[1100px] mt-[340px] z-20"
+              />
+              <img
+                src={pic4}
+                alt=""
+                className="absolute ml-[900px] mt-[440px] z-30"
+              />
+
+              <h2 className="absolute text-5xl font-semibold text-Black mt-[210px] ml-[150px]">
                 Temukan talent mahasiswa
               </h2>
-              <p className="absolute text-5xl font-semibold text-Black mt-[120px] ml-[150px]">
+              <p className="absolute text-5xl font-semibold text-Black mt-[260px] ml-[150px]">
                 yang anda butuhkan
               </p>
-              <p className="absolute text-5xl font-semibold text-Black mt-[170px] ml-[150px]">
+              <p className="absolute text-5xl font-semibold text-Black mt-[310px] ml-[150px]">
                 dengan cepat
               </p>
+              <div className="p-10  text-White mt-[340px] ml-[110px] absolute">
+                <div className="absolute w-[400px] overflow-hidden">
+                  <input
+                    type="checkbox"
+                    className=" peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer"
+                  />
+                  <div className="bg-YankeesBlue h-12 w-full pl-5 flex items center rounded-2xl ">
+                    <h1 className=" font-semibold mt-[10px] ml-[15px]">
+                      Sulit untuk mencari talent yang sesuai?
+                    </h1>
+                  </div>
+                  <div className="absolute top-3 right-3 text-White transition-transform duration-500 rotate-0 peer-checked:rotate-90">
+                    <img src={arrow} alt="" />
+                  </div>
+                  <div className="bg-Black overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40 rounded-2xl">
+                    <div className="p-4">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Perspiciatis et repudiandae illum laboriosam
+                        minima dolor dolore at est optio odit, dolores voluptate
+                        hic quam deserunt doloremque cumque sed, fuga eaque.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+              
             </div>
 
             <div className="flex justify-center">
@@ -62,9 +107,10 @@ const HomeRecruiter = () => {
                 </p>
               </div>
               <div className="flex justify-center">
-              <Link to="/talent" onClick={() => window.scrollTo(0, 0)}><button className="absolute text-Black font-bold text-2xl bg-Zomp mt-[1250px] -ml-[100px] rounded-2xl px-7 py-1 hover:scale-105 duration-400">
-                  Find talents
-                </button>
+                <Link to="/talent" onClick={() => window.scrollTo(0, 0)}>
+                  <button className="absolute text-Black font-bold text-2xl bg-Zomp mt-[1250px] -ml-[100px] rounded-2xl px-7 py-1 hover:scale-105 duration-400">
+                    Find talents
+                  </button>
                 </Link>
               </div>
             </div>
@@ -154,19 +200,32 @@ const HomeRecruiter = () => {
                 </p>
               </div>
               <div className="flex justify-center">
-                <Link to="/insightrecruiter" onClick={() => window.scrollTo(0, 0)}><button className="-ml-[50px] absolute bg-DarkSkyBlue rounded-2xl font-bold text-2xl px-5 hover:scale-105 duration-400 mt-[990px]">
-                  See more
-                </button>
+                <Link
+                  to="/insightrecruiter"
+                  onClick={() => window.scrollTo(0, 0)}
+                >
+                  <button className="-ml-[50px] absolute bg-DarkSkyBlue rounded-2xl font-bold text-2xl px-5 hover:scale-105 duration-400 mt-[990px]">
+                    See more
+                  </button>
                 </Link>
               </div>
             </div>
             <div className="w-full h-[836px] bg-BeauBlue">
-              <h1 className="absolute ml-[850px] mt-[200px] text-5xl font-bold">Lihat apa yang dapat dilakukan FindIn untuk</h1>
-              <h1 className="absolute ml-[850px] mt-[300px] text-5xl font-bold">perekrutan bakat awal Anda</h1>
-              <img src={foto4} alt="" className="absolute w-1/2 h-[836px] rounded-none"/>
-              <Link to="/post" onClick={() => window.scrollTo(0, 0)}><button className="absolute rounded-2xl text-Black  px-5 py-3 font-bold text-3xl hover:scale-105 duration-400 bg-Zomp ml-[860px] mt-[400px]">
-                Post Now
-              </button>
+              <h1 className="absolute ml-[850px] mt-[200px] text-5xl font-bold">
+                Lihat apa yang dapat dilakukan FindIn untuk
+              </h1>
+              <h1 className="absolute ml-[850px] mt-[300px] text-5xl font-bold">
+                perekrutan bakat awal Anda
+              </h1>
+              <img
+                src={foto4}
+                alt=""
+                className="absolute w-1/2 h-[836px] rounded-none"
+              />
+              <Link to="/post" onClick={() => window.scrollTo(0, 0)}>
+                <button className="absolute rounded-2xl text-Black  px-5 py-3 font-bold text-3xl hover:scale-105 duration-400 bg-Zomp ml-[860px] mt-[400px]">
+                  Post Now
+                </button>
               </Link>
             </div>
           </div>

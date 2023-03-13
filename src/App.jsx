@@ -33,6 +33,9 @@ import ProfileRecruiter from './pages/Recruiter/Profile/ProfileRecruiter';
 import DashboardRecruiter from './pages/Recruiter/Profile/DashboardRecruiter';
 import DaftarTerpilih from './pages/Student/Profile/DaftarTerpilih';
 import Pelamar from './pages/Recruiter/Profile/Pelamar';
+import InsightDetails2 from './pages/Student/InsightDetails2';
+import InsightRecruiterDetails from './pages/Recruiter/InsightRecruiterDetails';
+import InsightRecruiterDetails2 from './pages/Recruiter/InsightRecruiterDetails2';
 
 function App() {
   return (
@@ -45,7 +48,10 @@ function App() {
            <Route path='/internfair' element={<Internfair/>}/>
            <Route path='/insight' element={<Insight/>}/>
            <Route path='/insightdetails' element={<InsightDetails/>}/>
+           <Route path='/insightdetails2' element={<InsightDetails2/>}/>
            <Route path='/insightrecruiter' element={<InsightRecruiter/>}/>
+           <Route path='/insightdetailsrecruiter' element={<InsightRecruiterDetails/>}/>
+           <Route path='/insightdetailsrecruiter2' element={<InsightRecruiterDetails2/>}/>
            <Route path='/internfairrecruiter' element={<InternfairRecruiter/>}/>
            <Route path='/post' element={<Post/>}/>
            <Route path='/registerverif' element={<PilihanRegistrasi/>}/>

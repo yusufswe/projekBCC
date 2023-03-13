@@ -14,7 +14,9 @@ const Insight = () => {
   return (
     <div>
       <AppLayoutStudent>
-        <br /><br /><br />
+        <br />
+        <br />
+        <br />
         <div className="w-full h-[2900px] bg-BeauBlue">
           <div className="flex justify-center items-center">
             <h1 className="absolute text-Black text-4xl font-bold mt-[300px]">
@@ -38,21 +40,21 @@ const Insight = () => {
             Trending Hari ini
           </h3>
           <div className="flex justify-center items-center">
-            <Link to="/insightdetails">
-            <div className=" absolute bg-TealBlue w-[1276px] h-[284px]  mt-[890px] -ml-[630px] rounded-3xl cursor-pointer overflow-x-hidden">
-              <p className="absolute text-White text-xl font-semibold ml-[500px] mt-[20px]">
-                The Benefits of Interning
-              </p>
-              <p className="absolute text-White text-xl ml-[500px] mt-[90px]">
-                Why Internships are Crucial for Your Career" by Forbes -
-                highlights the benefits of internships such as gaining
-                experience, developing skills, and building connections.
-              </p>
-              <p className="absolute text-White text-xl ml-[500px] mt-[230px] font-bold">
-                Post October, 2021
-              </p>
-              <img src={img1} alt="" />
-            </div>
+            <Link to="/insightdetails" onClick={() => window.scrollTo(0, 0)}>
+              <div className=" absolute bg-TealBlue w-[1276px] h-[284px]  mt-[890px] -ml-[630px] rounded-3xl cursor-pointer overflow-x-hidden">
+                <p className="absolute text-White text-xl font-semibold ml-[500px] mt-[20px]">
+                  The Benefits of Interning
+                </p>
+                <p className="absolute text-White text-xl ml-[500px] mt-[90px]">
+                  Why Internships are Crucial for Your Career" by Forbes -
+                  highlights the benefits of internships such as gaining
+                  experience, developing skills, and building connections.
+                </p>
+                <p className="absolute text-White text-xl ml-[500px] mt-[230px] font-bold">
+                  Post October, 2021
+                </p>
+                <img src={img1} alt="" />
+              </div>
             </Link>
           </div>
           <div className="flex">
@@ -65,7 +67,7 @@ const Insight = () => {
                 Post October, 2021
               </p>
             </div>
-            <div className="absolute w-[330px] h-[330px] bg-TealBlue rounded-2xl mt-[1300px] ml-[630px]">
+            <Link to="/insightdetails2" onClick={() => window.scrollTo(0, 0)} ><div className="absolute w-[330px] h-[330px] bg-TealBlue rounded-2xl mt-[1300px] ml-[630px]  cursor-pointer">
               <img src={img3} alt="" />
               <p className="absolute text-White font-semibold text-xl mt-[20px] ml-[30px]">
                 The Do's and Don'ts of Interning
@@ -74,6 +76,7 @@ const Insight = () => {
                 Post October, 2021
               </p>
             </div>
+            </Link>
             <div className="absolute w-[330px] h-[330px] bg-TealBlue rounded-2xl mt-[1300px] ml-[1080px]">
               <img src={img4} alt="" />
               <p className="absolute text-White font-semibold text-xl mt-[20px] ml-[30px]">

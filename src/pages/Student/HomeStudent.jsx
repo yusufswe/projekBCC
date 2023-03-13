@@ -1,12 +1,12 @@
 import React from "react";
 import AppLayoutStudent from "../../components/partials/layout/layout/AppLayoutStudent";
 import jumbo from "../../assets/student/groupHome.png";
-import carilowongan from "../../assets/newuser/carilowongan.png";
+import carilowongan from "../../assets/newuser/cari.png";
 import panah from "../../assets/newuser/panah.png";
-import apply from "../../assets/newuser/apply.png";
+import apply from "../../assets/newuser/apply2.png";
 import arrow2 from "../../assets/newuser/arrow2.png";
-import diterima from "../../assets/newuser/diterima.png";
-import followup from "../../assets/newuser/followup.png";
+import diterima from "../../assets/newuser/diterima2.png";
+import followup from "../../assets/newuser/followup2.png";
 import internfair from "../../assets/newuser/internfair.png";
 import foto1 from "../../assets/newuser/foto1.png";
 import foto2 from "../../assets/newuser/foto2.png";
@@ -38,7 +38,7 @@ const HomeStudent = () => {
             temui di discover
           </p>
           <div>
-            <img src={carilowongan} alt="" className="absolute ml-[150px] w-[250px]" />
+            <img src={carilowongan} alt="" className="absolute ml-[150px] mt-[50px]  w-[350px]" />
           </div>
           <h3 className="text-5xl font-bold mt-[400px] ml-[1050px]">Apply</h3>
           <p className="absolute text-3xl mt-[130px] ml-[180px]">
@@ -57,7 +57,7 @@ const HomeStudent = () => {
             alt=""
             className="absolute mt-[270px] ml-[580px] w-[450px]"
           />
-          <h3 className="text-5xl font-bold mt-[480px] ml-[180px]">Diterima</h3>
+          <h3 className="text-5xl font-bold mt-[480px] ml-[180px]"></h3>
           <p className="absolute text-3xl mt-[100px] ml-[900px]">
             Setelah apply-an kamu di review
           </p>
@@ -78,18 +78,17 @@ const HomeStudent = () => {
             className="absolute ml-[480px] mt-[250px] w-[450px]"
           />
           <h3 className="text-5xl font-bold mt-[400px] ml-[900px]">
-            Follow up
           </h3>
-          <p className="absolute text-3xl mt-[120px] ml-[180px]">
+          <p className="absolute text-3xl mt-[490px] ml-[180px]">
             Pantengin terus info dari rekruiter untuk
           </p>
-          <p className="absolute text-3xl mt-[165px] ml-[180px]">
+          <p className="absolute text-3xl mt-[540px] ml-[180px]">
             tahap-tahap selanjutnya
           </p>
           <img
             src={followup}
             alt=""
-            className="absolute mt[10px] ml-[800px] w-[450px]"
+            className="absolute mt-[390px] ml-[930px] w-[450px]"
           />
         </div>
 
