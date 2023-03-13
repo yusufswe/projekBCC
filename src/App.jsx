@@ -1,5 +1,4 @@
 import './App.css';
-import Login from './pages/Login/Login';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Internfair from './pages/Student/Internfair';
 import Insight from './pages/Student/Insight';
@@ -9,12 +8,10 @@ import InsightRecruiter from './pages/Recruiter/InsightRecruiter';
 import InternfairRecruiter from './pages/Recruiter/InternfairRecruiter';
 import Post from './pages/Recruiter/Post';
 import PilihanRegistrasi from './pages/Login/PilihanRegistrasi';
-import FormRegisterStudent from './pages/Student/Register/FormRegisterStudent';
-import FormRegisterRecruiter from './pages/Recruiter/Register/FormRegisterRecruiter';
 import ForgotPassword from './pages/Login/ForgotPassword';
 import EndRegisterRecruiter from './pages/Recruiter/Register/EndRegisterRecruiter';
 import EndRegisterStudent from './pages/Student/Register/EndRegisterStudent';
-import FormVerif from './pages/Student/Register/FormVerif';
+import FormVerif from './Auth/Student/FormVerif';
 import FormKeahlian from './pages/Student/Register/FormKeahlian';
 import Discover from './pages/Student/Discover';
 import Talent from './pages/Recruiter/Talent';
@@ -36,6 +33,9 @@ import Pelamar from './pages/Recruiter/Profile/Pelamar';
 import InsightDetails2 from './pages/Student/InsightDetails2';
 import InsightRecruiterDetails from './pages/Recruiter/InsightRecruiterDetails';
 import InsightRecruiterDetails2 from './pages/Recruiter/InsightRecruiterDetails2';
+import RegisterRecruiter from './Auth/Recruiter/RegisterRecruiter';
+import RegisterStudent from './Auth/Student/RegisterStudent';
+import Login from './Auth/Login';
 
 function App() {
   return (
@@ -55,8 +55,8 @@ function App() {
            <Route path='/internfairrecruiter' element={<InternfairRecruiter/>}/>
            <Route path='/post' element={<Post/>}/>
            <Route path='/registerverif' element={<PilihanRegistrasi/>}/>
-           <Route path='/studentregister' element={<FormRegisterStudent/>}/>
-           <Route path='/recruiterregister' element={<FormRegisterRecruiter/>}/>
+           <Route path='/studentregister' element={<RegisterStudent/>}/>
+           <Route path='/recruiterregister' element={<RegisterRecruiter/>}/>
            <Route path='/forgotpassword' element={<ForgotPassword/>}/>
            <Route path='/changepassword' element={<ChangePassword/>}/>
            <Route path='/studentendregister' element={<EndRegisterStudent/>}/>

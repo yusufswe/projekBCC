@@ -1,6 +1,6 @@
-import React from "react";
+import {React, useState} from "react";
 import { Link } from "react-router-dom";
-import bg from "../../../assets/student/verifStudent.png";
+import bg from "../../assets/student/verifStudent.png";
 
 const FormVerif = () => {
   return (

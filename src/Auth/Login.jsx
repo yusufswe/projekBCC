@@ -1,29 +1,32 @@
 import axios from "axios";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import bgLogin from "../../assets/groupLogin.png";
+import { Link, useNavigate } from "react-router-dom";
+import bgLogin from "../assets/groupLogin.png";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [userType, setUserType] = useState("");
+  const [error, setError] = useState("");
+  const navigate = useNavigate();
 
   const handleLogin = (e) => {
     e.preventDefault();
 
-    console.log("berhasil submit");
-
     axios
-      .post("http://localhost:8016/auth/signin", {
+      .post("https://fikri.aenzt.tech/auth/signin", {
         email: email,
         password: password,
         userType: userType,
       })
-      .then((apapun) => {
-        console.log(apapun);
+      .then((response) => {
+        console.log(response);
+        window.localStorage.setItem("token", response.data.token);
+        navigate("/")
       })
       .catch((error) => {
         console.log(error);
+        setError(error.response.data);
       });
   };
 
@@ -55,11 +58,12 @@ const Login = () => {
             <select
               className="absolute w-[430px] h-[50px] border-2 border-White rounded-3xl bg-transparent bg-opacity-30 -ml-[210px] mt-[260px] px-[10px]"
               style={{ backgroundColor: "transparent", color: "White" }}
+              onChange= {(e) => setUserType(e.target.value)}
             >
               <option value="student" style={{ color: "Black" }}>
                 Student
               </option>
-              <option onChange={(e) => setUserType(e.target.value)} value="recruiter" style={{ color: "Black" }}>
+              <option value="recruiter" style={{ color: "Black" }}>
                 Recruiter
               </option>
             </select>

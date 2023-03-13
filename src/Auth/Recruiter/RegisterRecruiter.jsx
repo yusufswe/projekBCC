@@ -1,30 +1,33 @@
 import {React, useState} from "react";
-import background from "../../../assets/recruiter/registRekruter.png";
-import { Link } from "react-router-dom";
+import background from "../../assets/recruiter/registRekruter.png";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const FormRegisterRecruiter = () => {
+const RegisterRecruiter = () => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [company, setCompany] = useState("");
+  const [perusahaan, setPerusahaan] = useState("");
+
+  const navigate = useNavigate()
+  const [error, setError] = useState("");
 
   const handleRegister = (e) => {
     e.preventDefault();
 
-      console.log("berhasil registrasi")
-
-    axios.post('http://localhost:8016/auth/signup/employee', {
+    axios.post('https://fikri.aenzt.tech/auth/signup/employee', {
       username: username,
       email : email,
       password: password,
-      company: company
+      perusahaan: perusahaan
     })
-    .then(apapun => {
-      console.log(apapun)
+    .then(response => {
+      console.log(response)
+      navigate("/login")
     })
     .catch(error => {
       console.log(error)
+      setError(error.response.data);    
     })
   }
 
@@ -49,7 +52,7 @@ const FormRegisterRecruiter = () => {
             <input
               type="text"
               className="absolute rounded-2xl w-[350px] mr-[200px] py-2 mt-[340px]"
-              onChange={(e) => setCompany(e.target.value)}
+              onChange={(e) => setPerusahaan(e.target.value)}
               />
             <h3 className="absolute text-2xl text-White mr-[460px] font-semibold mt-[430px]">
               Email
@@ -91,4 +94,4 @@ const FormRegisterRecruiter = () => {
   );
 };
 
-export default FormRegisterRecruiter;
+export default RegisterRecruiter;
