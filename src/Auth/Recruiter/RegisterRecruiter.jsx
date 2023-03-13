@@ -1,6 +1,6 @@
 import {React, useState} from "react";
 import background from "../../assets/recruiter/registRekruter.png";
-import { Link, useNavigate } from "react-router-dom";
+import { Link , useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const RegisterRecruiter = () => {
