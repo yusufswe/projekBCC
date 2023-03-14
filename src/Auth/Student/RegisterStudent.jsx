@@ -58,7 +58,7 @@ const RegisterStudent = () => {
           </h3>
           <input
             type="text"
-            className="absolute rounded-2xl w-[350px] ml-[200px] py-2 mt-[190px]"
+            className="absolute rounded-md h-[44px] w-[350px] ml-[200px] py-2 mt-[190px]"
             onChange={(e) => setNama(e.target.value)}
             />
           <h3 className="absolute text-2xl text-White font-semibold ml-[200px]  mt-[280px]">
@@ -66,7 +66,7 @@ const RegisterStudent = () => {
           </h3>
           <input
             type="email"
-            className="absolute rounded-2xl w-[350px] ml-[200px] py-2 mt-[340px]"
+            className="absolute rounded-md h-[44px] w-[350px] ml-[200px] py-2 mt-[340px]"
             onChange={(e) => setEmail(e.target.value)}
             />
           <h3 className="absolute text-2xl text-White ml-[200px] font-semibold mt-[430px]">
@@ -74,7 +74,7 @@ const RegisterStudent = () => {
           </h3>
           <input
             type="password"
-            className="absolute rounded-2xl w-[350px] ml-[200px] py-2 mt-[490px] "
+            className="absolute rounded-md h-[44px] w-[350px] ml-[200px] py-2 mt-[490px] "
             onChange={(e) => setPassword(e.target.value)}
             />
           <h3 className="absolute text-2xl text-White ml-[200px] font-semibold  mt-[580px]">
@@ -82,10 +82,10 @@ const RegisterStudent = () => {
           </h3>
           <input
             type="password"
-            className="absolute rounded-2xl w-[350px] ml-[200px] py-2 mt-[640px]"
+            className="absolute rounded-md h-[44px] w-[350px] ml-[200px] py-2 mt-[640px]"
             onChange={(e) => setPassword(e.target.value)}
             />
-            <button type="submit" onClick={handleRegist} className="absolute w-[350px] py-2 font-bold bg-BeauBlue rounded-2xl text-Black mt-[770px] ml-[200px] hover:scale-105 duration-400">
+            <button type="submit" onClick={handleRegist} className="absolute w-[350px] py-2 font-bold bg-BeauBlue rounded-md h-[44px] text-Black mt-[770px] ml-[200px] hover:scale-105 duration-400">
               Next
             </button>
             </form>

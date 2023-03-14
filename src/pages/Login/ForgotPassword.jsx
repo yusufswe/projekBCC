@@ -17,7 +17,7 @@ const ForgotPassword = () => {
             Entered your registered email
           </p>
           <input
-            className="w-full h-[50px] border-2 border-White rounded-3xl bg-transparent mt-[140px] px-[10px]"
+            className="w-full  border-2 border-White rounded-md h-[44px] text-base bg-transparent mt-[140px] px-[10px]"
             type="text"
             style={{ backgroundColor: "transparent", color: "White" }}
           />
@@ -25,19 +25,19 @@ const ForgotPassword = () => {
             Enter code here
           </p>
           <input
-            className="w-[430px] h-[50px] absolute border-2 border-White rounded-3xl bg-transparent bg-opacity-30 mt-[320px] px-[10px]"
+            className="w-[430px] absolute border-2 border-White rounded-md h-[44px] text-base bg-transparent bg-opacity-30 mt-[320px] px-[10px]"
             type="text"
             style={{ backgroundColor: "transparent", color: "White" }}
              
           />
-          <button className="absolute bg-BeauBlue rounded-xl px-2 py-1 font-bold mt-[150px] ml-[290px] hover:scale-105 duration-400">Send code</button>
+          <button className="absolute bg-BeauBlue rounded-md h-[44px] text-base px-2 font-bold mt-[140px] ml-[327px] w-[100px] hover:scale-105 duration-400">Send code</button>
           <h3 className="absolute text-White mt-[390px] mr-[80px]">The code has been sent to your email, please </h3>
           <h3 className="absolute text-White mt-[420px] mr-[280px]">check your email</h3>
           <p className="absolute text-White text-base mt-[210px] mr-[140px]">
             Still didnt get the code?{" "}
             <Link to="/forgotpassword" onClick={() => window.scrollTo(0, 0)}><span className="text-White font-bold">Resend code</span></Link>
           </p>
-          <Link to="/changepassword"  onClick={() => window.scrollTo(0, 0)}><button className="absolute w-[330px] py-1 font-bold bg-Zomp rounded-3xl text-White mt-[460px] -ml-[370px] hover:scale-105 duration-400">
+          <Link to="/changepassword"  onClick={() => window.scrollTo(0, 0)}><button className="absolute w-[430px] py-1 font-bold bg-Zomp rounded-md h-[44px] text-base text-White mt-[460px] -ml-[425px] hover:scale-105 duration-400">
             Confirm
           </button>
           </Link>

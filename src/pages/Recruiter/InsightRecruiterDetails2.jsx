@@ -11,7 +11,7 @@ const InsightRecruiterDetails2 = () => {
         <br />
         <br />
         <br />
-        <div className="w-full h-[2200px] bg-BeauBlue">
+        <div className="w-full h-[1200px] bg-BeauBlue">
           <div className="absolute w-[741px] h-[1015px] bg-transparent rounded-3xl mt-[50px] ml-[130px]">
             <img
               src={TrendingDua}

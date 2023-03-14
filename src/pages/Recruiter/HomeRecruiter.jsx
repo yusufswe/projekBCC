@@ -60,7 +60,7 @@ const HomeRecruiter = () => {
                     type="checkbox"
                     className=" peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer"
                   />
-                  <div className="bg-YankeesBlue h-12 w-full pl-5 flex items center rounded-2xl ">
+                  <div className="bg-YankeesBlue h-12 w-full pl-5 flex items center rounded-md ">
                     <h1 className=" font-semibold mt-[10px] ml-[15px]">
                       Sulit untuk mencari talent yang sesuai?
                     </h1>
@@ -68,7 +68,7 @@ const HomeRecruiter = () => {
                   <div className="absolute top-3 right-3 text-White transition-transform duration-500 rotate-0 peer-checked:rotate-90">
                     <img src={arrow} alt="" />
                   </div>
-                  <div className="bg-Black overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40 rounded-2xl">
+                  <div className="bg-Black overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40 rounded-md">
                     <div className="p-4">
                       <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing
@@ -80,11 +80,7 @@ const HomeRecruiter = () => {
                   </div>
                 </div>
               </div>
-
-              
-              
             </div>
-
             <div className="flex justify-center">
               <h2 className="absolute text-Black font-bold text-3xl mt-[700px]">
                 Jangkau jaringan mahasiswa berbakat yang beragam
@@ -108,7 +104,7 @@ const HomeRecruiter = () => {
               </div>
               <div className="flex justify-center">
                 <Link to="/talent" onClick={() => window.scrollTo(0, 0)}>
-                  <button className="absolute text-Black font-bold text-2xl bg-Zomp mt-[1250px] -ml-[100px] rounded-2xl px-7 py-1 hover:scale-105 duration-400">
+                  <button className="absolute text-Black font-bold bg-Zomp mt-[1250px] -ml-[100px] rounded-md h-[44px] text-base px-7 py-1 hover:scale-105 duration-400">
                     Find talents
                   </button>
                 </Link>
@@ -204,7 +200,7 @@ const HomeRecruiter = () => {
                   to="/insightrecruiter"
                   onClick={() => window.scrollTo(0, 0)}
                 >
-                  <button className="-ml-[50px] absolute bg-DarkSkyBlue rounded-2xl font-bold text-2xl px-5 hover:scale-105 duration-400 mt-[990px]">
+                  <button className="-ml-[50px] absolute bg-DarkSkyBlue rounded-md h-[44px] text-base font-bold px-5 hover:scale-105 duration-400 mt-[990px]">
                     See more
                   </button>
                 </Link>
@@ -223,7 +219,7 @@ const HomeRecruiter = () => {
                 className="absolute w-1/2 h-[836px] rounded-none"
               />
               <Link to="/post" onClick={() => window.scrollTo(0, 0)}>
-                <button className="absolute rounded-2xl text-Black  px-5 py-3 font-bold text-3xl hover:scale-105 duration-400 bg-Zomp ml-[860px] mt-[400px]">
+                <button className="absolute rounded-md h-[44px] text-base text-Black  px-5 py-3 font-bold  hover:scale-105 duration-400 bg-Zomp ml-[860px] mt-[400px]">
                   Post Now
                 </button>
               </Link>

@@ -30,6 +30,7 @@ const RegisterRecruiter = () => {
       setError(error.response.data);    
     })
   }
+  
 
   return (
     <div>
@@ -43,7 +44,7 @@ const RegisterRecruiter = () => {
             </h3>
             <input
               type="text"
-              className="absolute rounded-2xl w-[350px] mr-[200px] py-2 mt-[190px]"
+              className="absolute rounded-md h-[44px] w-[350px] mr-[200px] py-2 mt-[190px]"
               onChange={(e)=> setUsername(e.target.value)}
             />
             <h3 className="absolute text-2xl text-White font-semibold mr-[335px]  mt-[280px]">
@@ -51,7 +52,7 @@ const RegisterRecruiter = () => {
             </h3>
             <input
               type="text"
-              className="absolute rounded-2xl w-[350px] mr-[200px] py-2 mt-[340px]"
+              className="absolute rounded-md h-[44px] w-[350px] mr-[200px] py-2 mt-[340px]"
               onChange={(e) => setPerusahaan(e.target.value)}
               />
             <h3 className="absolute text-2xl text-White mr-[460px] font-semibold mt-[430px]">
@@ -59,7 +60,7 @@ const RegisterRecruiter = () => {
             </h3>
             <input
               type="email"
-              className="absolute rounded-2xl w-[350px] mr-[200px] py-2 mt-[490px] "
+              className="absolute rounded-md h-[44px] w-[350px] mr-[200px] py-2 mt-[490px] "
               onChange={(e) => {setEmail(e.target.value)}}
             />
             <h1 className="absolute text-2xl text-White mr-[350px] font-semibold  mt-[580px]">
@@ -67,7 +68,7 @@ const RegisterRecruiter = () => {
             </h1>
             <input
               type="password"
-              className="absolute rounded-2xl w-[350px] mr-[200px] py-2 mt-[640px]"
+              className="absolute rounded-md h-[44px] w-[350px] mr-[200px] py-2 mt-[640px]"
               onChange={(e) => setPassword(e.target.value)}
               />
             <h3 className="absolute text-2xl text-White mr-[350px] font-semibold mt-[730px]">
@@ -75,10 +76,10 @@ const RegisterRecruiter = () => {
             </h3>
             <input
               type="password"
-              className="absolute rounded-2xl w-[350px] mr-[200px] py-2 mt-[790px]"
+              className="absolute rounded-md h-[44px] w-[350px] mr-[200px] py-2 mt-[790px]"
               onChange={(e) => setPassword(e.target.value)}
             />
-            <button type="submit" className="absolute w-[350px] py-2 font-bold bg-BeauBlue rounded-2xl text-Black mt-[900px] hover:scale-105 duration-400">
+            <button type="submit" className="absolute w-[350px] py-2 font-bold bg-BeauBlue rounded-md h-[44px] text-Black mt-[900px] hover:scale-105 duration-400">
               Next
             </button>
         </form>

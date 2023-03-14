@@ -117,7 +117,7 @@ const InternfairRecruiter = () => {
               />
             </div>
           </div>
-          <button className="bg-BeauBlue rounded-2xl text-Black text-2xl font-bold  py-1 px-5 hover:scale-105 duration-400 absolute mt-[500px] ml-[655px]">
+          <button className="bg-BeauBlue rounded-md h-[44px] text-base text-Black font-bold  py-1 px-5 hover:scale-105 duration-400 absolute mt-[500px] ml-[655px]">
             Contact us now
           </button>
         </div>

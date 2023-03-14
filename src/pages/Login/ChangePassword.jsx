@@ -17,7 +17,7 @@ const ChangePassword = () => {
             Create new password
           </p>
           <input
-            className="w-full h-[50px] border-2 border-White rounded-3xl bg-transparent mt-[140px] px-[10px]"
+            className="w-full h-[50px] border-2 border-White rounded-md bg-transparent mt-[140px] px-[10px]"
             type="text"
             style={{ backgroundColor: "transparent", color: "White" }}
           />
@@ -25,7 +25,7 @@ const ChangePassword = () => {
             Confirm create new password
           </p>
           <input
-            className="w-[430px] h-[50px] absolute border-2 border-White rounded-3xl bg-transparent bg-opacity-30 mt-[340px] px-[10px]"
+            className="w-[430px] h-[50px] absolute border-2 border-White rounded-md bg-transparent bg-opacity-30 mt-[340px] px-[10px]"
             type="text"
             style={{ backgroundColor: "transparent", color: "White" }}
           />
@@ -34,7 +34,8 @@ const ChangePassword = () => {
           <p className="absolute text-White text-base mt-[210px] mr-[140px]">
           </p>
           
-          <Link to="/login"  onClick={() => window.scrollTo(0, 0)}><button className="-ml-[370px] absolute w-[330px] py-1 font-bold bg-Zomp rounded-3xl text-White mt-[460px] hover:scale-105 duration-400">
+          <Link to="/login"  onClick={() => window.scrollTo(0, 0)}>
+            <button className="-ml-[370px] absolute w-[330px] py-1 font-bold bg-Zomp rounded-md h-[44px] text-base text-White mt-[460px] hover:scale-105 duration-400">
             Confirm
           </button>
           </Link>

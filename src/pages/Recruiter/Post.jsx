@@ -51,53 +51,53 @@ const Post = () => {
               </h2>
               <input
                 type="text"
-                className="absolute rounded-2xl w-[350px] py-3 mt-[190px] mr-[370px]"
+                className="absolute rounded-md  w-[350px] py-3 mt-[190px] mr-[370px]"
               />
               <h2 className="absolute text-3xl text-White font-semibold mr-[550px] mt-[280px]">
                 Perusahaan
               </h2>
               <input
                 type="text"
-                className="absolute rounded-2xl w-[350px] py-3 mt-[340px] mr-[370px]"
+                className="absolute rounded-md w-[350px] py-3 mt-[340px] mr-[370px]"
               />
               <h2 className="absolute text-3xl text-White font-semibold mr-[450px] mt-[430px]">
                 Jenis tempat kerja
               </h2>
               <input
                 type="text"
-                className="absolute rounded-2xl w-[350px] py-3 mt-[490px] mr-[370px]"
+                className="absolute rounded-md w-[350px] py-3 mt-[490px] mr-[370px]"
               />
               <h2 className="absolute text-3xl text-White font-semibold mr-[480px] mt-[580px]">
                 Lokasi pekerjaan
               </h2>
               <input
                 type="text"
-                className="absolute rounded-2xl w-[350px] py-3 mt-[640px] mr-[370px]"
+                className="absolute rounded-md w-[350px] py-3 mt-[640px] mr-[370px]"
               />
               <h2 className="absolute text-3xl text-White font-semibold mr-[490px] mt-[730px]">
                 Jenis Pekerjaan
               </h2>
               <input
                 type="text"
-                className="absolute rounded-2xl w-[350px] py-3 mr-[370px] mt-[790px]"
+                className="absolute rounded-md w-[350px] py-3 mr-[370px] mt-[790px]"
               />
               <h2 className="absolute text-3xl text-White font-semibold mr-[570px] mt-[880px]">
                 Deskripsi
               </h2>
               <input
                 type="text"
-                className="absolute rounded-2xl w-[350px] py-3 mr-[370px] mt-[940px]"
+                className="absolute rounded-md w-[350px] py-3 mr-[370px] mt-[940px]"
               />
               <h2 className="absolute text-3xl text-White font-semibold mr-[570px] mt-[1030px]">
                 Deadline
               </h2>
               <input
                 type="text"
-                className="absolute rounded-2xl w-[350px] py-3 mr-[370px] mt-[1090px]"
+                className="absolute rounded-md w-[350px] py-3 mr-[370px] mt-[1090px]"
               />
               <p className="absolute text-2xl text-White font-semibold mr-[410px] mt-[1180px]">Lampiran file panduan intern</p>
-              <button className="absolute text-xl text-Black font-semibold bg-BeauBlue px-7 hover:scale-105 duration-400 rounded-xl py-1 mt-[1230px] mr-[600px]">Upload</button>
-              <button className="absolute text-xl text-Black font-bold bg-BeauBlue px-7 hover:scale-105 duration-400 rounded-xl py-1 mt-[1310px] w-[400px]">Post</button>
+              <button className="absolute text-xl text-Black font-semibold bg-BeauBlue px-7 hover:scale-105 duration-400 rounded-md py-1 mt-[1230px] mr-[600px]">Upload</button>
+              <button className="absolute text-xl text-Black font-bold bg-BeauBlue px-7 hover:scale-105 duration-400 rounded-md py-1 mt-[1310px] w-[400px]">Post</button>
             </div>
           </div>
         </div>

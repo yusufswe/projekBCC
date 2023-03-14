@@ -86,9 +86,11 @@ const InternDetails = () => {
             </ol>
             <h3 className="absolute text-2xl font-bold mt-[890px] ml-[40px]">Panduan Intern</h3>
             <button className="absolute text-xl font-bold mt-[940px] ml-[40px] bg-ChineseBlue text-White rounded-2xl py-1 px-2 hover:scale-105 duration-400">Click Here</button>
+            <Link to="/login">
             <button className="absolute bg-Zomp font-bold text-xl rounded-xl px-3 py-1 ml-[550px] mt-[80px] hover:scale-105 duration-400">
               Apply now
             </button>
+            </Link>
             <div className="flex justify-center absolute w-[328px] h-[749px] bg-YankeesBlue ml-[900px] rounded-3xl cursor-pointer">
                 <h3 className="absolute text-2xl font-bold text-White mt-[40px]">Other Internships</h3>
                 <Link to="/interndetails2"  onClick={() => window.scrollTo(0, 0)}>

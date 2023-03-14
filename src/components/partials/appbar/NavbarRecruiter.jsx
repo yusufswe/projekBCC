@@ -32,7 +32,7 @@ const NavbarRecruiter = () => {
           </li>
           <li className="p-3 cursor-pointer">
             <Link to ="/login" onClick={() => window.scrollTo(0, 0)}>
-              <button onClick={() => window.scrollTo(0, 0)} className="bg-BeauBlue rounded-2xl text-Black  px-5 hover:scale-105 duration-400">
+              <button onClick={() => window.scrollTo(0, 0)} className="bg-BeauBlue rounded-md text-base text-Black  px-5 hover:scale-105 duration-400">
                 Login
               </button>
             </Link>

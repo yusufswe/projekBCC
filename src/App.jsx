@@ -47,7 +47,6 @@ function App() {
           <Route element={<ProtectedRoutes />}>
             <Route path="/profile" element={<Profile />} />
             <Route path="/profilerecruiter" element={<ProfileRecruiter />} />
-            <Route path="/discover" element={<Discover />} />
             <Route path="/talent" element={<Talent />} />
             <Route path="/post" element={<Post />} />
             <Route path="/dashboard" element={<Dashboard />} />
@@ -55,6 +54,7 @@ function App() {
           </Route>
 
           <Route element={<AuthRoutes />}>
+            <Route path="/discover" element={<Discover />} />
             <Route path="/" element={<HomeStudent />} />
             <Route path="/homerecruiter" element={<HomeRecruiter />} />
             <Route path="/login" element={<Login />} />
@@ -79,6 +79,7 @@ function App() {
             path="/internfairrecruiter"
             element={<InternfairRecruiter />}
           />
+
           <Route path="/registerverif" element={<PilihanRegistrasi />} />
           <Route path="/forgotpassword" element={<ForgotPassword />} />
           <Route path="/changepassword" element={<ChangePassword />} />

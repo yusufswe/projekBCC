@@ -8,7 +8,7 @@ const Navbar = () => {
         <h1 className="w-full text-3xl font-bold cursor-pointer ml-5">
           <Link to = "/" className="text-White"  onClick={() => window.scrollTo(0, 0)}>findIn</Link>
         </h1>
-        <ul className="md:flex mt-3">
+        <ul className="md:flex mt-3 ">
           <li className="p-3 cursor-pointer">
             <Link to = "/" className="text-White"  onClick={() => window.scrollTo(0, 0)}>Home</Link>
           </li>
@@ -17,6 +17,7 @@ const Navbar = () => {
           </li>
           <li className="p-3 cursor-pointer">
             <Link to = "/insight" className="text-White"  onClick={() => window.scrollTo(0, 0)}>Insight</Link>
+            {/* <span>hover:border-b-2 hover:border-White</span> */}
           </li>
           <li className="p-3 cursor-pointer">
             <Link to = "/internfair" className="text-White"  onClick={() => window.scrollTo(0, 0)}>Internfair</Link>
@@ -29,7 +30,7 @@ const Navbar = () => {
           </li>
           <li className="p-3 cursor-pointer">
             <Link to = "/login"  onClick={() => window.scrollTo(0, 0)}>
-              <button className="bg-BeauBlue rounded-2xl text-Black  px-5 hover:scale-105 duration-400">
+              <button className="bg-BeauBlue text-Black -mt-[3px] px-5 rounded-md py-1 text-base hover:scale-105 duration-400">
                 Login
               </button>
             </Link>

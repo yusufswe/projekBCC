@@ -19,6 +19,7 @@ module.exports = {
       'RichBlack' : '#081015',
       'BlueLight' : '#68A2C3',
       'BlueDark' :'#214052',
+      'ColumbiaBlue': '#CDE0EB',
     },
     screens: {
       'sm' : '640px',

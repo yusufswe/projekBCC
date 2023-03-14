@@ -13,52 +13,52 @@ const FormVerif = () => {
           </h3>
           <input
             type="text"
-            className="absolute rounded-2xl w-[350px] ml-[200px] py-2 mt-[90px]"
+            className="absolute rounded-md h-[44px] w-[350px] ml-[200px] py-2 mt-[90px]"
           />
           <h3 className="absolute text-2xl text-White font-semibold ml-[200px] mt-[150px]">
             Perguruan Tinggi
           </h3>
           <input
             type="text"
-            className="absolute rounded-2xl w-[350px] ml-[200px] py-2 mt-[200px]"
+            className="absolute rounded-md h-[44px] w-[350px] ml-[200px] py-2 mt-[200px]"
           />
           <h3 className="absolute text-2xl text-White font-semibold ml-[200px]  mt-[260px]">
             Tahun Masuk
           </h3>
           <input
             type="text"
-            className="absolute rounded-2xl w-[350px] ml-[200px] py-2 mt-[320px]"
+            className="absolute rounded-md h-[44px] w-[350px] ml-[200px] py-2 mt-[320px]"
           />
           <h3 className="absolute text-2xl text-White ml-[200px] font-semibold mt-[390px]">
             Program Studi
           </h3>
           <input
             type="text"
-            className="absolute rounded-2xl w-[350px] ml-[200px] py-2 mt-[450px] "
+            className="absolute rounded-md h-[44px] w-[350px] ml-[200px] py-2 mt-[450px] "
           />
           <h3 className="absolute text-2xl text-White ml-[200px] font-semibold  mt-[530px]">
             NIM
           </h3>
           <input
             type="text"
-            className="absolute rounded-2xl w-[350px] ml-[200px] py-2 mt-[590px]"
+            className="absolute rounded-md h-[44px] w-[350px] ml-[200px] py-2 mt-[590px]"
           />
           <h3 className="absolute text-2xl text-White ml-[200px] font-semibold  mt-[670px]">
             NIK
           </h3>
           <input
             type="text"
-            className="absolute rounded-2xl w-[350px] ml-[200px] py-2 mt-[740px]"
+            className="absolute rounded-md h-[44px] w-[350px] ml-[200px] py-2 mt-[740px]"
           />
           <h3 className="absolute text-2xl text-White ml-[200px] font-semibold  mt-[800px]">
             No HP
           </h3>
           <input
             type="text"
-            className="absolute rounded-2xl w-[350px] ml-[200px] py-2 mt-[860px]"
+            className="absolute rounded-md h-[44px] w-[350px] ml-[200px] py-2 mt-[860px]"
           />
           <Link to="/formkeahlianmahasiswa" onClick={() => window.scrollTo(0,0)}>
-            <button className="absolute w-[350px] py-2 font-bold bg-BeauBlue rounded-2xl text-Black mt-[970px] ml-[200px] hover:scale-105 duration-400">
+            <button className="absolute w-[350px] py-2 font-bold bg-BeauBlue rounded-md h-[44px] text-Black mt-[970px] ml-[200px] hover:scale-105 duration-400">
               Next
             </button>
           </Link>
