@@ -44,17 +44,18 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route element={<ProtectedRoutes />}>
+          {/* <Route element={<ProtectedRoutes />}> */}
             <Route path="/profile" element={<Profile />} />
             <Route path="/profilerecruiter" element={<ProfileRecruiter />} />
             <Route path="/talent" element={<Talent />} />
             <Route path="/post" element={<Post />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/dashboardrecruiter" element={<DashboardRecruiter />} />
-          </Route>
+            <Route path="/discover" element={<Discover />} />
+            <Route path="/discover/:id?" element={<Discover />} />
+          {/* </Route> */}
 
           <Route element={<AuthRoutes />}>
-            <Route path="/discover" element={<Discover />} />
             <Route path="/" element={<HomeStudent />} />
             <Route path="/homerecruiter" element={<HomeRecruiter />} />
             <Route path="/login" element={<Login />} />
@@ -95,7 +96,7 @@ function App() {
           <Route path="/interndetails" element={<InternDetails />} />
           <Route path="/interndetails2" element={<InternDetails2 />} />
           <Route path="/liststudent" element={<Students />} />
-          <Route path="/studentdetails" element={<DetailStudents />} />
+          <Route path="/studentdetails/:nim" element={<DetailStudents />} />
           <Route path="/studentdetails2" element={<DetailStudents2 />} />
           <Route path="/daftarterpilih" element={<DaftarTerpilih />} />
           <Route path="/pelamar" element={<Pelamar />} />

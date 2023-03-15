@@ -1,10 +1,42 @@
-import React from 'react'
+import {React, useState, useEffect} from 'react'
 import bgProfile from"../../../assets/recruiter/profilerecruiter.jpg";
 import NavbarRecruiter from '../../../components/partials/appbar/NavbarRecruiter';
+import Cookies from "js-cookie";
+import jwtDecode from "jwt-decode";
 
 const ProfileRecruiter = () => {
-  return (
-    <div>
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [profile, setProfile] = useState({
+    email : "",
+    id : "",
+    limit : "",
+    perusahaan : "",
+    username : ""
+  })
+
+  useEffect(() => {
+    const token = Cookies.get("token")
+    if(token){
+      const jwtToken = atob(token)
+      const payload = jwtDecode(jwtToken)
+      const userFromPayload = payload.user
+      console.log(userFromPayload)
+      if(userFromPayload.role === 'employee'){
+        setIsLoggedIn(true)
+        setProfile(userFromPayload)
+      } else {
+        window.location.href = "/login"
+      }
+    } else {
+      window.location.href = "/login"
+    }
+  }, []);
+
+  if(isLoggedIn){
+
+    
+    return (
+      <div>
       <NavbarRecruiter/>
       <br /><br /><br />  
       <div className='w-full h-[700px] bg-BeauBlue'>
@@ -26,6 +58,7 @@ const ProfileRecruiter = () => {
       </div>
     </div>
   )
+}
 }
 
 export default ProfileRecruiter

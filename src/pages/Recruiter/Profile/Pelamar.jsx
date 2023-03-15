@@ -1,7 +1,7 @@
 import React from 'react'
 import NavbarRecruiter from '../../../components/partials/appbar/NavbarRecruiter'
 import { Link } from 'react-router-dom'
-import profilepicture from "../../../assets/recruiter/profilepicture.png";
+import PelamarCard from '../../../components/Card/PelamarCard'
 
 const Pelamar = () => {
   return (
@@ -17,27 +17,10 @@ const Pelamar = () => {
             <div className='absolute w-[1148px] h-[428px] bg-BlueDark rounded-2xl'>
                 <h2 className='absolute font-sans font-semibold text-White text-2xl mt-[30px] ml-[40px]'>Total of 2 penawar</h2>
                 <div>
-                <img src={profilepicture} alt=""  className='w-[60px] absolute mt-[110px] ml-[40px]'/>
-                <h3 className='absolute font-sans text-White text-2xl ml-[130px] mt-[110px]'>Fauzan Akbar</h3>
-                <h3 className='absolute font-sans font-semibold text-White mt-[150px] ml-[130px]'>Front end</h3>
-                <button className='absolute bg-BlueLight px-5 py-1 font-semibold rounded-md h-[44px] text-base mt-[110px] ml-[1050px] hover:scale-105 duration-400'>Pilih</button>
-                <button className='absolute bg-Zomp px-5 py-1 font-semibold rounded-md h-[44px] text-base mt-[110px] ml-[940px] hover:scale-105 duration-400'>Contact</button>
+
+                {/* pelamar card */}
+
                 </div>
-                <div className='mt-[100px]'>
-                <img src={profilepicture} alt=""  className='w-[60px] absolute mt-[110px] ml-[40px]'/>
-                <h3 className='absolute font-sans text-White text-2xl ml-[130px] mt-[110px]'>Muhammad Yusuf</h3>
-                <h3 className='absolute font-sans font-semibold text-White mt-[150px] ml-[130px]'>Front end</h3>
-                <button className='absolute bg-BlueLight px-5 py-1 font-semibold rounded-md h-[44px] text-base mt-[110px] ml-[1050px] hover:scale-105 duration-400'>Pilih</button>
-                <button className='absolute bg-Zomp px-5 py-1 font-semibold rounded-md h-[44px] text-base mt-[110px] ml-[940px] hover:scale-105 duration-400'>Contact</button>
-                </div>
-
-
-
-
-
-
-
-
             </div>
         </div>
         </div>
